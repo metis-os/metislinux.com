@@ -1,0 +1,108 @@
+@font-face { font-family: hacker; src: url('../fonts/hacker.ttf'); }
+@font-face { font-family: iosevka; src: url('../fonts/iosevka-regular.ttf'); }
+@font-face { font-family: mokoto; src: url('../fonts/Mokoto\ Glitch\ Mark.ttf'); }
+
+body{
+    background-color: #282828;
+    font-family: iosevka, monospace;
+    color: #EBDBB2;
+    font-size: 14pt;
+}
+
+div{
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.main{
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 3%;
+}
+
+.header img{
+    float: left;
+}
+
+.header{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: #FABD2F;
+}
+
+a:hover, a:active{
+    color: #EBDBB2;
+}
+
+h1, h2{
+    font-family: mokoto, monospace;
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+h3, h4, h5, h6{
+    font-family: hacker, monospace;
+    color: aqua;
+}
+hr{
+    color: #c4ebb2;
+}
+
+.features p {
+    color: #eba18b;
+}
+.features p strong{
+    color: rgb(197, 224, 170);
+}
+.features p span {
+    color: #a9eb8b;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    max-width: 100%;
+}
+.text{
+    font-size: 15pt;
+}
+.main-image {
+    flex-basis: 40%
+}
+@media only screen and (max-width: 410px) {
+    .main-image, .music {
+        display: none;
+    }
+}
+
+/* About Page + Contact Page*/
+.about{
+    color: #D9ACA4;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    flex-basis: 40%
+}
+@media only screen and (max-width: 700px) {
+    .main-image {
+        display: none;
+    }
+}
+
+/* Private Page */
+@media only screen and (max-width: 900px) {
+    .root-image {
+        display: none;
+    }
+}
