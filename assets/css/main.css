@@ -2,40 +2,54 @@
 @font-face { font-family: iosevka; src: url('../fonts/iosevka-regular.ttf'); }
 @font-face { font-family: mokoto; src: url('../fonts/Mokoto\ Glitch\ Mark.ttf'); }
 
-body{
+body {
     background-color: #282828;
     font-family: iosevka, monospace;
     color: #EBDBB2;
+    /* color: #1D2126; */
     font-size: 14pt;
 }
 
-div{
+div {
     width: auto;
     max-width: 100%;
     height: 100%;
 }
 
-.main{
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
     margin-left: 17%;
     margin-right: 17%;
     padding: 3%;
 }
 
-.header img{
+.header {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header img {
     float: left;
+    width: 30%;
 }
 
-.header{
-    display: inline;
-}
-
-a{
+a {
     text-decoration: none;
     color: #FABD2F;
 }
 
 a:hover, a:active{
-    color: #EBDBB2;
+    color: #e4cb8d;
+}
+
+cite{
+    color: #a9eb8b;
 }
 
 h1, h2{
@@ -43,21 +57,32 @@ h1, h2{
     color: red;
     text-shadow: 2px 2px 5px black;
 }
-h3, h4, h5, h6{
+h3, h4, h5{
     font-family: hacker, monospace;
     color: aqua;
 }
+
+h6 {
+    font-family: iosevka, monospace;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    text-shadow: #4c5746 2px 2px 1px;
+}
+
 hr{
     color: #c4ebb2;
 }
 
-.features p {
+.features p, li {
     color: #eba18b;
 }
 .features p strong{
     color: rgb(197, 224, 170);
 }
-.features p span {
+p span {
     color: #a9eb8b;
     font-size: 15pt;
     font-weight: bold;
@@ -76,33 +101,78 @@ img {
 .main-image {
     flex-basis: 40%
 }
-@media only screen and (max-width: 410px) {
-    .main-image, .music {
-        display: none;
-    }
-}
 
-/* About Page + Contact Page*/
-.about{
-    color: #D9ACA4;
-}
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.image {
-    flex-basis: 40%
-}
 @media only screen and (max-width: 700px) {
     .main-image {
         display: none;
     }
 }
 
-/* Private Page */
-@media only screen and (max-width: 900px) {
-    .root-image {
-        display: none;
+@media only screen and (max-width: 432px) {
+    .main{
+        margin-left: 8%;
+        margin-right: 8%;
+        padding: 2%;
     }
+    .header{
+        flex-direction: column;
+    }
+}
+
+.about{
+    color: #D9ACA4;
+}
+
+.home a {
+    padding: 5%;
+    margin: 5%;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+ul .mails li a:hover {
+    color: aqua;
+}
+
+.btn-installation-guide {
+    background-color: #413e3e;
+    font-size: 16pt;
+    color: blanchedalmond;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.installation-guide {
+    text-align: center;
+}
+
+.norm-btn {
+    background-color: #4d4b4b;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.norm-btn:hover, .btn-installation-guide:hover {
+    background-color: #000000;
+    font-weight: bold;
+}
+
+img .preview{
+    width: 80%;
+    height: auto;
+}
+
+.unavailable{
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    color: #EBDBB2;
+    font-size: 14pt;
+    font-weight: normal;
 }
