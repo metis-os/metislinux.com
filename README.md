@@ -1,4 +1,7 @@
-# lges
+### metislinux.org
 
-A simple and responsive personal website templete especially designed for [https://www.yogeshlamichhane.com.np](https://www.yogeshlamichhane.com.np).
+A simple and static website metis-os.
 
+Super minimalistic, smooth, resource efficient and highly customizable OS for absolute performance.
+
+(Download Now!)[https://metislinux.org]
