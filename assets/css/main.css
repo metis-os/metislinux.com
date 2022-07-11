@@ -6,7 +6,6 @@ body {
     background-color: #282828;
     font-family: iosevka, monospace;
     color: #EBDBB2;
-    /* color: #1D2126; */
     font-size: 14pt;
 }
 
@@ -100,20 +99,32 @@ img {
     flex-basis: 40%
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-device-width: 600px), (max-width: 600px) {
     .main-image {
         display: none;
     }
 }
 
-@media only screen and (max-width: 432px) {
+@media only screen and (max-device-width: 500px), (max-width: 500px) {
     .main{
-        margin-left: 8%;
-        margin-right: 8%;
+        margin-left: 6%;
+        margin-right: 6%;
         padding: 2%;
     }
     .header{
         flex-direction: column;
+    }
+    body {
+        font-size: 2.6em;
+    }
+    .text {
+        font-size: 1.2em;
+    }
+    p span {
+        font-size: 4.2vw;
+    }
+    button a {
+        font-size: 1.5em;
     }
 }
 
@@ -150,14 +161,7 @@ ul .mails li a:hover {
     text-align: center;
 }
 
-.norm-btn {
-    background-color: #4d4b4b;
-    text-align: center;
-    border-radius: 7px;
-    font-weight: bold;
-}
-
-.norm-btn:hover, .btn-installation-guide:hover {
+.btn-installation-guide:hover {
     background-color: #000000;
     font-weight: bold;
 }
@@ -165,12 +169,4 @@ ul .mails li a:hover {
 img .preview{
     width: 80%;
     height: auto;
-}
-
-.unavailable{
-    text-decoration-line: line-through;
-    text-decoration-style: solid;
-    color: #EBDBB2;
-    font-size: 14pt;
-    font-weight: normal;
 }
