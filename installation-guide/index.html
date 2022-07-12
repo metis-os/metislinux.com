@@ -96,6 +96,9 @@
                         <h4>Installation Process Using metis-sideload</h4>
                         <p>Execute the command metis-sideload and follow the instructions: </p>
                         <code># metis-sideload</code>
+                        <p>If internet connection dodn't work/start automatically, run the following one time command:</p>
+                        <code>$ sudo ln -s /etc/runit/sv/NetworkManager /run/runit/service </code>
+                        <code>$ sudo sv up NetworkManager </code>
                         <p>Video Tutorial for the installation will be soon available!</p>
                         
                     </p>
