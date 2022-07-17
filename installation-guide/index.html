@@ -74,8 +74,10 @@
                         <p>To verify the boot mode uefi or legacy, list the efivars directory:</p>
                         <code># ls /sys/firmware/efi/efivars</code>
                         <p>
-                            If the command shows the directory without error, then the system is booted in UEFI mode. If the directory does not exist, the system may be booted in BIOS (or CSM) mode. If the system did not boot in the mode you desired, refer to your motherboard's manual. 
+                            If the command shows the directory without error, then the system is booted in UEFI mode. If the directory does not exist, the system may be booted in BIOS (or CSM) mode. If the system did not boot in the mode you desired, refer to your motherboard's manual.
                         </p>
+                        <p><span>Note1: You must create a boot partition of at least 300 MBs (512 MBs recommended) for grub installation during the installation process.</span></p>
+                        <p><span>Note2: Legacy installation only supports limited filesystem types like ext4, xfs. It doesnot support btrfs file system.</span></p>
                         <h4>Connect to the internet</h4>
                         <p><li>
                             To set up a network connection in the live environment, go through the following steps: 
@@ -96,11 +98,10 @@
                         <h4>Installation Process Using metis-sideload</h4>
                         <p>Execute the command metis-sideload and follow the instructions: </p>
                         <code># metis-sideload</code>
-                        <p>If internet connection didn't work/start automatically, run the following one time command:</p>
-                        <code>$ sudo ln -s /etc/runit/sv/NetworkManager /run/runit/service </code>
-                        <code>$ sudo sv up NetworkManager </code>
-                        <p>Video Tutorial for the installation will be soon available!</p>
-                        
+                        <h5>A detailed installation guide and video tutorial will be available soon.</h5>
+                        <h4>Login after successful installation</h4>
+                        <p>After completing installation, select xinitrc in the login screen and then enter your username and password to login.</p>
+                        <p><img src="../assets/images/metis-login-screen.png" alt="selecting-xinitrc-in-metis-linux-login-screen"></p>
                     </p>
                 </div>
                 <hr>
