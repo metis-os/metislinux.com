@@ -2,11 +2,16 @@
 @font-face { font-family: iosevka; src: url('../fonts/iosevka-regular.ttf'); }
 @font-face { font-family: mokoto; src: url('../fonts/Mokoto\ Glitch\ Mark.ttf'); }
 
+html body {
+    height: 100%;
+}
+
 body {
     background-color: #282828;
     font-family: iosevka, monospace;
     color: #EBDBB2;
     font-size: 14pt;
+    margin:0 auto;
 }
 
 div {
@@ -169,4 +174,26 @@ ul .mails li a:hover {
 img .preview{
     width: 80%;
     height: auto;
+}
+
+.thanks {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.eachone {
+    padding: 2%;
+    width: 28%;
+}
+
+.eachone img {
+    width: 100px;
+    height: 100px;
+    border-radius: 35%;
+    object-fit: cover;
 }
