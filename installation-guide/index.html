@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../assets/css/main.css" />
-        <title>Metis Linux Installation Guide</title>
-
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    
         <meta http-equiv="Cache-Control" content="no-cache">
         <meta http-equiv="Pragma" content="no-cache">
-        <meta name="description" content="Super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
-        <meta name="keywords" content="linux, metis-linux,  metis, metis linux, metis-os, metis os,operating-system, operating system, open source, open-source, linux-os, linux os, linux-operating-system, linux operating system, lightweight os, lightest os, minimalistic os">
+        <meta name="description" content="Download and try Metis Linux - Systemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+        <meta name="keywords" content="metis linux installation guide, installation guide of metis linux, install metis-linux, metislinux">
         <meta name="author" content="Metis Linux, info@metislinux.org ">
-        <meta name="url" content="https://metislinux.org">
-        <meta name="summary" content="Metis Linux - super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
-        <meta name="topic" content="metis linux">
+        <meta name="url" content="https://metislinux.org/installation-guide">
+        <meta name="summary" content="Installation guide for metis linux - download and try the ystemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+    
+        <meta name="topic" content="Metis Linux Installation Guide">
         <meta name="coverage" content="Worldwide">
         <meta name="distribution" content="Global">
         <meta name="reply-to" content="info@metislinux.org">
         <meta name="layoutmode" content="fitscreen/standard">
         <meta name="msapplication-TileColor" content="#1D2126">
         <meta name="theme-color" content="#1D2126">
-        <meta name="viewport" content="uc-fitscreen=yes">
+        <meta name="revised" content="Tuesday, August 02, 2022">
+        <meta name="robots" content="follow, index">
+        <meta name="googlebot" content="follow, index">
     
-        <meta property="og:title" content="Metis Linux - super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
-        <meta property="og:type" content="metis linux">
+        <meta property="og:title" content="Metis Linux Installation Guide">
+        <meta property="og:type" content="article">
         <meta property=og:locale content=en_US>
-        <meta property="og:url" content="https://metislinux.org">
-        <meta property="og:site_property" content="metis linux">
-        <meta property="og:description" content="super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+        <meta property="og:url" content="https://metislinux.org/installation-guide">
+        <meta property="og:site_property" content="Metis Linux Installation Guide">
+        <meta property="og:description" content="!">
         <meta property="og:email" content="info@metislinux.org">
         <meta property="og:image" content="../assets/images/metis-logo.png">
+    
+        <meta name="twitter:title" content="Metis Linux Installation Guide">
+        <meta name="twitter:image" content="../assets/images/metis-logo.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@metislinux">
+        <meta name="twitter:creator" content="@metislinux">
+        <meta name="twitter:description" content="Installation guide for metis linux - download and try the ystemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
     
         <link href="../assets/images/icons/logo-16x16.png" rel="icon" type="image/png" sizes="16x16">
         <link href="../assets/images/icons/logo-32x32.png" rel="icon" type="image/png" sizes="32x32">
@@ -44,6 +53,7 @@
         <link href="../assets/images/icons/logo-120x120.png" rel="apple-touch-icon" sizes="120x120">
         <link href="../assets/images/icons/logo-152x152.png" rel="apple-touch-icon" sizes="152x152">
     
+        <title>Metis Linux Installation Guide</title>
     </head>
     <body>
         <div class="body">
@@ -76,7 +86,7 @@
                         <p>
                             If the command shows the directory without error, then the system is booted in UEFI mode. If the directory does not exist, the system may be booted in BIOS (or CSM) mode. If the system did not boot in the mode you desired, refer to your motherboard's manual.
                         </p>
-                        <p><span>Note1: You must create a boot partition of at least 300 MBs (512 MBs recommended) for grub installation during the installation process.</span></p>
+                        <p><span>Note1: For UEFI Systems, you must create a boot partition of at least 300 MBs (512 MBs recommended) for grub installation during the installation process. Skip for legacy systems.</span></p>
                         <p><span>Note2: Legacy installation only supports limited filesystem types like ext4, xfs. It doesnot support btrfs file system.</span></p>
                         <h4>Connect to the internet</h4>
                         <p><li>
@@ -98,10 +108,11 @@
                         <h4>Installation Process Using metis-sideload</h4>
                         <p>Execute the command metis-sideload and follow the instructions: </p>
                         <code># metis-sideload</code>
-                        <h5>A detailed installation guide and video tutorial will be available soon.</h5>
                         <h4>Login after successful installation</h4>
                         <p>After completing installation, select xinitrc in the login screen and then enter your username and password to login.</p>
                         <p><img src="../assets/images/metis-login-screen.png" alt="selecting-xinitrc-in-metis-linux-login-screen"></p>
+                        <h5>Here is a installation tutorial video made by one of the metis linux user!</h5>
+                        <iframe min-width="240" width="560" min-height="100" height="315" src="https://www.youtube-nocookie.com/embed/3nPmJmD8FX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </p>
                 </div>
                 <hr>
