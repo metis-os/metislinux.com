@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://metislinux.org/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/about/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/download/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/installation-guide/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/wiki/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/contribute/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/contact/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/respect/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://metislinux.org/key-bindings/</loc>
+  <lastmod>2022-08-02T08:32:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
