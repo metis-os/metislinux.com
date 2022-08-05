@@ -1,16 +1,19 @@
 #slider {
 	background: #282828;
-	border:5px solid #eaeaea;
+	border:4px solid #eaeaea;
 	box-shadow:1px 1px 5px rgba(0,0,0,0.7);
-	height:320px;
-	width:680px;
 	margin:40px auto 0;
-	overflow:visible;
 	position:relative;
+	width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
 }
 #mask {
-	overflow:hidden;
-	height:320px;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 #slider ul {
 	margin:0;
@@ -18,8 +21,8 @@
 	position:relative;
 }
 #slider li {
-	width:680px;
-	height:320px;
+	height: 1;
+	width: 100%;
 	position:absolute;
 	top:-325px;
 	list-style:none;
