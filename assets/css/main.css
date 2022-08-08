@@ -11,7 +11,6 @@ body {
     font-family: iosevka, monospace;
     color: #EBDBB2;
     font-size: 14pt;
-    /* font-size: 1.6vw; */
     margin:0 auto;
 }
 
@@ -121,7 +120,7 @@ img {
         flex-direction: column;
     }
     body {
-        font-size: 12pt;
+        font-size: 12.5pt;
     }
     .text {
         font-size: 1.2em;
