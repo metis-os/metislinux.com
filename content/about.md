@@ -3,7 +3,7 @@ title = "About Metis Linux"
 description = "Metis linux is an artix linux based systemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system for chads!"
 page_template = "page.html"
 +++
-Metis Linux is an Artix Linux based OS, started as a hobby project by a 17 y/o Nepalese teen [Nabeen Tiwaree](https://github.com/pwnwriter) with his fellow friends [Yogesh Lamichhane](https://codeberg.org/whoisYoges) and [Safal Piya](https://github.com/mrsafalpiya).
+Metis Linux is an Artix Linux based OS, started as a hobby project by a 17 y/o Nepalese teen [Nabeen Tiwaree](https://github.com/pwnwriter) with his fellow friends [Yogesh Lamichhane](https://github.com/whoisYoges) and [Safal Piya](https://github.com/mrsafalpiya).
 <!-- more -->
 
 <hr>

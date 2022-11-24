@@ -50,7 +50,7 @@ Huge thanks and respect to each and every helping hands who made possible to cre
 </div>
 <div class="eachone">
 <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener noreferrer">
-<img src="/assets/images/pages/thanks/cool/lukesmith.webp" alt="helpful hand">
+<img src="/assets/images/pages/thanks/cool/lukesmith.png" alt="helpful hand">
 <p>Luke Smith</p>
 </a>
 </div>
@@ -68,7 +68,7 @@ Huge thanks and respect to each and every helping hands who made possible to cre
 </div>
 <div class="eachone">
 <a href="https://instagram.com/loneillustrator" target="_blank" rel="noopener noreferrer">
-<img src="/assets/images/pages/thanks/cool/nirdesh.gif" alt="helpful hand">
+<img src="/assets/images/pages/thanks/cool/nirdesh.png" alt="helpful hand">
 <p>Lone Illustrator</p>
 </a>
 </div>

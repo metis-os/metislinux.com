@@ -18,11 +18,11 @@ Get the systemd-less, super smooth, ultra minimalistic, resource efficient, high
 <div id="slider">
     <div id="mask">
         <ul>
-            <li class="first"><img src="/assets/images/pages/download/metis-linux-preview-1.png"/></li>
-            <li class="second"><img src="/assets/images/pages/download/metis-linux-preview-2.png"/></li>
-            <li class="third"><img src="/assets/images/pages/download/metis-linux-preview-3.png"/></li>
-            <li class="fourth"><img src="/assets/images/pages/download/metis-linux-preview-4.png"/></li>
-            <li class="fifth"><img src="/assets/images/pages/download/metis-linux-preview-5.png"/></li>
+            <li class="first"><img src="/assets/images/pages/download/metis-linux-preview-1.jpg"/></li>
+            <li class="second"><img src="/assets/images/pages/download/metis-linux-preview-2.jpg"/></li>
+            <li class="third"><img src="/assets/images/pages/download/metis-linux-preview-3.jpg"/></li>
+            <li class="fourth"><img src="/assets/images/pages/download/metis-linux-preview-4.jpg"/></li>
+            <li class="fifth"><img src="/assets/images/pages/download/metis-linux-preview-5.jpg"/></li>
         </ul>
         <div class="progress-bar"></div>
     </div>
