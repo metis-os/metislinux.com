@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta name="author" content="Metis Linux, info@metislinux.org ">
+        <meta name="topic" content="metis linux">
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="reply-to" content="info@metislinux.org">
+        <meta name="layoutmode" content="fitscreen/standard">
+        <meta name="msapplication-TileColor" content="#1D2126">
+        <meta name="theme-color" content="#1D2126">
+        <meta name="revised" content="Thursday, November 24, 2022">
+        <meta name="robots" content="follow, index">
+        <meta name="googlebot" content="follow, index">
+        <link rel="shortcut icon" href="/assets/images/icons/logo.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="/assets/images/icons/logo.png">
+        {% if page.extra.slideshow %}
+        <link rel="stylesheet" href="/assets/css/slideshow.css">
+        {% endif %}
+
+        {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta name="description" content="{{ page.description }}">
+        <meta name="dc.description" content="{{ page.description }}">
+        {% else %}
+        {% if section.description %}
+        <meta name="twitter:description" content="{{ section.description }}">
+        <meta property="og:description" content="{{ section.description }}">
+        <meta name="description" content="{{ section.description }}">
+        <meta name="dc.description" content="{{ section.description }}">
+        {% else %}
+        <meta name="og:description" content="Systemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+        <meta name="twitter:description" content="Systemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+        <meta name="description" content="Systemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+        <meta name="dc.description" content="Systemd-less, super smooth, ultra minimalistic, resource efficient, highly customizable and absolute performance oriented operating system!">
+        {% endif %}
+        {% endif %}
+
+        {% if page.permalink %}
+        <meta property="twitter:url" content="{{ page.permalink | safe }}">
+        <meta property="og:url" content="{{ page.permalink | safe }}">
+        <meta property="og:type" content="article">
+        <meta name="dc.relation" content="{{ page.permalink | safe }}">
+        {% else %}
+        {% if section.permalink %}
+        <meta property="twitter:url" content="{{ section.permalink | safe }}">
+        <meta property="og:url" content="{{ section.permalink | safe }}">
+        <meta property="og:type" content="website">
+        <meta name="dc.relation" content="{{ section.permalink | safe }}">
+        {% else %}
+        <meta property="twitter:url" content="https://metislinux.org">
+        <meta property="og:url" content="https://metislinux.org">
+        <meta property="og:type" content="website">
+        <meta name="dc.relation" content="https://metislinux.org">
+        {% endif %}
+        {% endif %}
+
+        {% if page.title %}
+        <title>{{ page.title }}</title>
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta name="dc.title" content="{{ page.title }}">
+        {% else %}
+        {% if section.title %}
+        <title>{{ section.title }}</title>
+        <meta name="twitter:title" content="{{ section.title }}">
+        <meta property="og:title" content="{{ section.title }}">
+        <meta name="dc.title" content="{{ section.title }}">
+        {% else %}
+        <title>Metis Linux</title>
+        {% endif %}
+        {% endif %}
+
+        {% if page.extra.opengraph %}
+        <meta name="og:image" content="{{ get_url(path=page.extra.opengraph ) }}">
+        <meta name="twitter:image:src" content="{{ get_url(path=page.extra.opengraph ) }}">
+        {% else %}
+        <meta name="og:image" content="/assets/images/opengraph.jpg">
+        <meta name="twitter:image:src" content="/assets/images/opengraph.jpg">
+        {% endif %}
+
+        {% if page.extra.keywords %}
+        <meta name="keywords" content="{{ page.extra.keywords }}">
+        {% else %}
+        {% if section.extra.keywords %}
+        <meta name="keywords" content="{{ section.extra.keywords }}">
+        {% else %}
+        <meta name="keywords" content="metis-linux, metislinux, metis linux, metis-os, metis os, metis, linux, operating-system, operating system, open source, open-source, linux-os, linux os, linux-operating-system, linux, linux operating system, linux os, lightweight os, lightest os, minimalistic os">
+        {% endif %}
+        {% endif %}
+
+    </head>
+    <body>
+        <div class="body">
+            <div class="main">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </body>
+</html>
