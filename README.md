@@ -5,8 +5,8 @@ This is the official website of metis linux
 # Clone and setup 
 
 ``` bash
-git clone https://github.com/Santoshkurmi/metis_website.git
-cd metis_website
+git clone https://github.com/metis-os/metislinux.org.git
+cd metislinux.org
 npm install
 
 ```
