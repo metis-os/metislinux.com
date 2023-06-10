@@ -10,26 +10,28 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Generate SSH keys
+        run: |
+          ssh-keygen -t rsa -b 4096 -C "GitHub Actions Deploy Key" -N '' -f deploy_key
+          echo "DEPLOY_PRIVATE_KEY=$(cat deploy_key)" >> $GITHUB_ENV
+          echo "DEPLOY_PUBLIC_KEY=$(cat deploy_key.pub)" >> $GITHUB_ENV
+          rm deploy_key deploy_key.pub
 
       - name: install node and npm
         run: |
-            sudo apt update
-            sudo apt install nodejs npm
-            node --version
+          sudo apt update
+          sudo apt install nodejs npm
+          node --version
 
       - name: start build script
         run: |
-            npm install
-            npm run build
-
-
-
+          npm install
+          npm run build
 
       - name: Pushes to the website repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-          API_TOKEN_GITHUB: ${{ secrets.API_GITHUB_TOKEN }}
+          SSH_DEPLOY_KEY: ${{ env.DEPLOY_PRIVATE_KEY }}
         with:
           source-directory: 'dist'
           destination-github-username: 'pwnwriter'
@@ -37,4 +39,3 @@ jobs:
           user-email: hey@pwnwriter.xyz 
           target-branch: main
 
-          
