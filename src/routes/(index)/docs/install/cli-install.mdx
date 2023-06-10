@@ -1,0 +1,121 @@
+# Install METIS the chroot way
+**METIS Linux** is so much minimal that you can even install it using the standard *`chroot`* method, similar to distributions such as *`Arch` / `Artix.`*
+I personally use this method because it allows you to customize your overall installation process, choose a different **kernel** and stuffs like that.
+
+> It is not recommended for individuals who are new to Linux to install METIS Linux using the chroot method. Instead, they are advised to utilize the user-friendly Calamares installer.
+
+In this guide i'll be installing **METIS** on *UEFI* system, the process goes the same to *BIOS*
+
+Assuming you are aleady booted into *metislinux* ISO and the internet is working fine.
+
+Open **terminal** with *(super + enter)* and follow along the below guide.
+
+# initializing the disk
+Once you booted into the iso, do `lsblk` and see on which disk to install metislinux on. I'll be installing on my `nvme0n1` drive.
+```bash
+$ lsblk
+NAME      MAJ:MIN RM   SIZE    RO TYPE MOUNTPOINTS
+sda       8:0     0    931.5G  0                                # Hard drive 
+sdb       8:16    1    29.3G   0                                # pendrive of metislinux
+nvme0n1   259:0   0    119.2G  0 disk                           # installation drive
+```
+
+# For `UEFI`
+- Use `fdisk` to create two partition out of the disk, and format the boot partition with `mkfs.vfat -F32` and another with `mkfs.ext4` 
+- Now, mount the `root partition`  to `/mnt`.
+- Create a `boot` directory inside `/mnt` (You can also use `/boot/efi`). 
+- Mount the boot partition to `/mnt/boot`. (if you have made a `/boot/efi` directory mount it there but it doesn't really matter).
+
+
+
+<br />
+        <div style="display: flex; justify-content: center;">
+
+                <img src="/installation/cli/303293.png" alt="Chroot initial" height="80%" width="80%" />
+
+        </div>
+
+<br />
+
+
+Now, it's time to install the `base` packages from the `repo`.
+run
+```bash
+$ basestrap /mnt base base-devel runit elogind-runit linux-hardened intel-ucode linux-hardened-headers neovim linux-firmware metis-fonts nerd-fonts-jetbrains-mono eww-x11 xclip tmux paru xorg-xinit metis-dwm zathura zathura-pdf-poppler git fzf doas zsh xwallpaper python3 python-pip python-pywal fontconfig xorg-mkfontscale zsh-autosuggestions zsh-syntax-highlighting  zsh-completions xdg-utils xdg-user-dirs zoxide
+libnotify grub mpv ffmpeg pipewire pipewire-pulse wireplumber rustup metis-grub-theme neworkmanager networkmanager-runit efibootmgr
+```
+
+<br />
+        <div style="display: flex; justify-content: center;">
+
+                <img src="/installation/cli/172619.png" alt="Chroot initial" height="80%" width="80%" />
+
+        </div>
+
+<br />
+
+> Note, I've installed the very basic packages , you can even filter out on this and choose which to install !!
+
+Now, it's time to generate `fstab` of our system. 
+```bash
+$ fastabgen -U /mnt /mnt/etc/fstab 
+```
+
+
+
+<br />
+        <div style="display: flex; justify-content: center;">
+
+                <img src="/installation/cli/191267.png" alt="Chroot initial" height="80%" width="80%" />
+
+        </div>
+
+<br />
+
+Now, `chroot into the new system`
+```bash
+$ metis-chroot /mnt /bin/bash # this will open a bash(chroot) instance of newly installed system. you can switch to another shell also.
+```
+
+Now, `symlink` your localtime and `hardwareclock` as follows
+
+
+<br />
+        <div style="display: flex; justify-content: center;">
+
+                <img src="/installation/cli/218213.png" alt="Chroot initial" height="80%" width="80%" />
+
+        </div>
+
+<br />
+
+```bash
+$ ln -sf /usr/share/zoneinfo/Asia/kathmandu/  /etc/localtime
+````
+
+
+
+here,  `writer` is my machine name and `Asia/kathmandu` is my localtime.
+
+After doing this, we can install the `grub` bootloader as below.
+
+
+<br />
+        <div style="display: flex; justify-content: center;">
+
+                <img src="/installation/cli/336479.png" alt="Chroot initial" height="80%" width="80%" />
+
+        </div>
+
+<br />
+
+After installing grub, we can reboot the system.
+```bash
+$ exit 
+$ umount -Rl /mnt
+````
+
+# Setting up services
+
+runit system is a lil' bit than other, it uses symlinking way to enable services in the system.
+
