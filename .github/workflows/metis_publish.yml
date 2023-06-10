@@ -31,10 +31,10 @@ jobs:
           # SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
           API_TOKEN_GITHUB: ${{ secrets.API_GITHUB_TOKEN }}
         with:
-          source-directory: 'dist'
-          destination-github-username: 'santoshkurmi'
-          destination-repository-name: 'website'
-          user-email: xantosh121@gmail.com
+          source-directory: 'pages'
+          destination-github-username: 'pwnwriter'
+          destination-repository-name: 'metislinux.org'
+          user-email: hey@pwnwriter.xyz 
           target-branch: main
 
           
