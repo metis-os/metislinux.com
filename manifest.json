@@ -1,0 +1,305 @@
+{
+  "_index-30550716.js": {
+    "file": "assets/index-30550716.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ]
+  },
+  "_metis_V2.0-49a3f6df.js": {
+    "file": "assets/metis_V2.0-49a3f6df.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true
+  },
+  "_utils-d06a10d5.js": {
+    "file": "assets/utils-d06a10d5.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ]
+  },
+  "src/entry-client.css": {
+    "file": "assets/entry-client-bb593170.css",
+    "src": "src/entry-client.css"
+  },
+  "src/entry-client.jsx": {
+    "css": [
+      "assets/entry-client-bb593170.css"
+    ],
+    "dynamicImports": [
+      "src/routes/(index).jsx",
+      "src/routes/(index)/[...404].jsx",
+      "src/routes/(index)/docs.jsx",
+      "src/routes/(index)/docs/contribute.mdx",
+      "src/routes/(index)/docs/donate.mdx",
+      "src/routes/(index)/docs/old-contribute.mdx",
+      "src/routes/(index)/docs/theinit.mdx",
+      "src/routes/(index)/docs/install/beginner.mdx",
+      "src/routes/(index)/docs/install/cli-install.mdx",
+      "src/routes/(index)/docs/install/welcome.mdx",
+      "src/routes/(index)/docs/keybindings/bspwm.mdx",
+      "src/routes/(index)/docs/keybindings/dwm.mdx",
+      "src/routes/(index)/docs/walkthrough/terminal.mdx",
+      "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx",
+      "src/routes/(index)/index.jsx",
+      "src/routes/(index)/news/(items).jsx",
+      "_metis_V2.0-49a3f6df.js",
+      "src/routes/(index)/news/index.jsx"
+    ],
+    "file": "assets/entry-client-7508a388.js",
+    "isEntry": true,
+    "src": "src/entry-client.jsx"
+  },
+  "src/routes/(index).css": {
+    "file": "assets/(index)-1553321f.css",
+    "src": "src/routes/(index).css"
+  },
+  "src/routes/(index).jsx": {
+    "css": [
+      "assets/(index)-1553321f.css"
+    ],
+    "file": "assets/(index)-09fac022.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "src/routes/(index)/docs.jsx",
+      "_utils-d06a10d5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index).jsx"
+  },
+  "src/routes/(index)/[...404].jsx": {
+    "file": "assets/_...404_-3d5fd728.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/[...404].jsx"
+  },
+  "src/routes/(index)/docs.css": {
+    "file": "assets/docs-ec6eb359.css",
+    "src": "src/routes/(index)/docs.css"
+  },
+  "src/routes/(index)/docs.jsx": {
+    "css": [
+      "assets/docs-ec6eb359.css"
+    ],
+    "file": "assets/docs-c1ca1310.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_utils-d06a10d5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs.jsx"
+  },
+  "src/routes/(index)/docs/contribute.mdx": {
+    "file": "assets/contribute-5a6b5353.js",
+    "imports": [
+      "_index-30550716.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/contribute.mdx"
+  },
+  "src/routes/(index)/docs/donate.mdx": {
+    "file": "assets/donate-aaa6d31a.js",
+    "imports": [
+      "_index-30550716.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/donate.mdx"
+  },
+  "src/routes/(index)/docs/install/beginner.mdx": {
+    "file": "assets/beginner-9d7cb556.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/install/beginner.mdx"
+  },
+  "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx": {
+    "file": "assets/boot-with-usb-89f8f1c6.js",
+    "imports": [
+      "_index-30550716.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx"
+  },
+  "src/routes/(index)/docs/install/cli-install.mdx": {
+    "file": "assets/cli-install-8267c744.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/install/cli-install.mdx"
+  },
+  "src/routes/(index)/docs/install/welcome.mdx": {
+    "file": "assets/welcome-f5787f53.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/install/welcome.mdx"
+  },
+  "src/routes/(index)/docs/keybindings/bspwm.mdx": {
+    "file": "assets/bspwm-baa3ef51.js",
+    "imports": [
+      "_index-30550716.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/keybindings/bspwm.mdx"
+  },
+  "src/routes/(index)/docs/keybindings/dwm.mdx": {
+    "file": "assets/dwm-baa3ef51.js",
+    "imports": [
+      "_index-30550716.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/keybindings/dwm.mdx"
+  },
+  "src/routes/(index)/docs/old-contribute.mdx": {
+    "file": "assets/old-contribute-e0652290.js",
+    "imports": [
+      "_index-30550716.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/old-contribute.mdx"
+  },
+  "src/routes/(index)/docs/theinit.mdx": {
+    "file": "assets/theinit-0d2da344.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/theinit.mdx"
+  },
+  "src/routes/(index)/docs/walkthrough/terminal.mdx": {
+    "file": "assets/terminal-4576cfbb.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/walkthrough/terminal.mdx"
+  },
+  "src/routes/(index)/index.css": {
+    "file": "assets/index-7148eea9.css",
+    "src": "src/routes/(index)/index.css"
+  },
+  "src/routes/(index)/index.jsx": {
+    "assets": [
+      "assets/fa-brands-400-931d1733.eot",
+      "assets/fa-brands-400-1f49b870.woff2",
+      "assets/fa-brands-400-ef7234f1.woff",
+      "assets/fa-brands-400-d7746d29.ttf",
+      "assets/fa-brands-400-85eee115.svg",
+      "assets/fa-regular-400-da05e5ee.eot",
+      "assets/fa-regular-400-6a16c042.woff2",
+      "assets/fa-regular-400-684157e4.woff",
+      "assets/fa-regular-400-4e2fc1d3.ttf",
+      "assets/fa-regular-400-e14de040.svg",
+      "assets/fa-solid-900-d5342ae6.eot",
+      "assets/fa-solid-900-cd398be1.woff2",
+      "assets/fa-solid-900-c1450cdd.woff",
+      "assets/fa-solid-900-9313de73.ttf",
+      "assets/fa-solid-900-4ee1b170.svg"
+    ],
+    "css": [
+      "assets/index-7148eea9.css"
+    ],
+    "file": "assets/index-6624b0bf.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/index.jsx"
+  },
+  "src/routes/(index)/news/(items).jsx": {
+    "file": "assets/(items)-0fbc30eb.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_utils-d06a10d5.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/news/(items).jsx"
+  },
+  "src/routes/(index)/news/index.jsx": {
+    "file": "assets/index-b8d9d815.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_metis_V2.0-49a3f6df.js",
+      "_index-30550716.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/news/index.jsx"
+  },
+  "src/webfonts/fa-brands-400.eot": {
+    "file": "assets/fa-brands-400-931d1733.eot",
+    "src": "src/webfonts/fa-brands-400.eot"
+  },
+  "src/webfonts/fa-brands-400.svg": {
+    "file": "assets/fa-brands-400-85eee115.svg",
+    "src": "src/webfonts/fa-brands-400.svg"
+  },
+  "src/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-d7746d29.ttf",
+    "src": "src/webfonts/fa-brands-400.ttf"
+  },
+  "src/webfonts/fa-brands-400.woff": {
+    "file": "assets/fa-brands-400-ef7234f1.woff",
+    "src": "src/webfonts/fa-brands-400.woff"
+  },
+  "src/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-1f49b870.woff2",
+    "src": "src/webfonts/fa-brands-400.woff2"
+  },
+  "src/webfonts/fa-regular-400.eot": {
+    "file": "assets/fa-regular-400-da05e5ee.eot",
+    "src": "src/webfonts/fa-regular-400.eot"
+  },
+  "src/webfonts/fa-regular-400.svg": {
+    "file": "assets/fa-regular-400-e14de040.svg",
+    "src": "src/webfonts/fa-regular-400.svg"
+  },
+  "src/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-4e2fc1d3.ttf",
+    "src": "src/webfonts/fa-regular-400.ttf"
+  },
+  "src/webfonts/fa-regular-400.woff": {
+    "file": "assets/fa-regular-400-684157e4.woff",
+    "src": "src/webfonts/fa-regular-400.woff"
+  },
+  "src/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-6a16c042.woff2",
+    "src": "src/webfonts/fa-regular-400.woff2"
+  },
+  "src/webfonts/fa-solid-900.eot": {
+    "file": "assets/fa-solid-900-d5342ae6.eot",
+    "src": "src/webfonts/fa-solid-900.eot"
+  },
+  "src/webfonts/fa-solid-900.svg": {
+    "file": "assets/fa-solid-900-4ee1b170.svg",
+    "src": "src/webfonts/fa-solid-900.svg"
+  },
+  "src/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-9313de73.ttf",
+    "src": "src/webfonts/fa-solid-900.ttf"
+  },
+  "src/webfonts/fa-solid-900.woff": {
+    "file": "assets/fa-solid-900-c1450cdd.woff",
+    "src": "src/webfonts/fa-solid-900.woff"
+  },
+  "src/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-cd398be1.woff2",
+    "src": "src/webfonts/fa-solid-900.woff2"
+  }
+}

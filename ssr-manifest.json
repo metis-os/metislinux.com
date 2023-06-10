@@ -1,0 +1,214 @@
+{
+  "\u0000vite/preload-helper": [
+  ],
+  "../../../__uno.css": [
+  ],
+  "assets/entry-client-!~{001}~.js-unocss-hash.css": [
+  ],
+  "node_modules/@docsearch/css/dist/style.css": [
+    "/website/assets/(index)-09fac022.js",
+    "/website/assets/(index)-1553321f.css"
+  ],
+  "node_modules/@docsearch/js/dist/esm/index.js": [
+    "/website/assets/(index)-09fac022.js",
+    "/website/assets/(index)-1553321f.css"
+  ],
+  "node_modules/@solidjs/meta/dist/index.jsx": [
+  ],
+  "node_modules/@solidjs/router/dist/components.jsx": [
+  ],
+  "node_modules/@solidjs/router/dist/integration.js": [
+  ],
+  "node_modules/@solidjs/router/dist/lifecycle.js": [
+  ],
+  "node_modules/@solidjs/router/dist/routing.js": [
+  ],
+  "node_modules/@solidjs/router/dist/utils.js": [
+  ],
+  "node_modules/solid-js/dist/solid.js": [
+  ],
+  "node_modules/solid-js/store/dist/store.js": [
+    "/website/assets/utils-d06a10d5.js"
+  ],
+  "node_modules/solid-js/web/dist/web.js": [
+  ],
+  "node_modules/solid-mdx/dist/index.mjs": [
+    "/website/assets/index-30550716.js"
+  ],
+  "node_modules/solid-start/entry-client/StartClient.tsx": [
+  ],
+  "node_modules/solid-start/entry-client/mount.tsx": [
+  ],
+  "node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
+  ],
+  "node_modules/solid-start/root/Document.tsx": [
+  ],
+  "node_modules/solid-start/root/FileRoutes.tsx": [
+  ],
+  "node_modules/solid-start/root/Scripts.tsx": [
+  ],
+  "node_modules/solid-start/router.tsx": [
+  ],
+  "node_modules/solid-start/server/ServerContext.tsx": [
+  ],
+  "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
+    "/website/assets/_...404_-3d5fd728.js"
+  ],
+  "node_modules/solid-start/server/types.tsx": [
+  ],
+  "src/components/Landing_Page/homepage.jsx": [
+    "/website/assets/index-6624b0bf.js",
+    "/website/assets/index-7148eea9.css",
+    "/website/assets/fa-brands-400-931d1733.eot",
+    "/website/assets/fa-brands-400-1f49b870.woff2",
+    "/website/assets/fa-brands-400-ef7234f1.woff",
+    "/website/assets/fa-brands-400-d7746d29.ttf",
+    "/website/assets/fa-brands-400-85eee115.svg",
+    "/website/assets/fa-regular-400-da05e5ee.eot",
+    "/website/assets/fa-regular-400-6a16c042.woff2",
+    "/website/assets/fa-regular-400-684157e4.woff",
+    "/website/assets/fa-regular-400-4e2fc1d3.ttf",
+    "/website/assets/fa-regular-400-e14de040.svg",
+    "/website/assets/fa-solid-900-d5342ae6.eot",
+    "/website/assets/fa-solid-900-cd398be1.woff2",
+    "/website/assets/fa-solid-900-c1450cdd.woff",
+    "/website/assets/fa-solid-900-9313de73.ttf",
+    "/website/assets/fa-solid-900-4ee1b170.svg"
+  ],
+  "src/components/Navbar.jsx": [
+    "/website/assets/(index)-09fac022.js",
+    "/website/assets/(index)-1553321f.css"
+  ],
+  "src/components/doc_comps/Sidebar.jsx": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/components/doc_comps/clipboard.jsx": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/components/doc_comps/nextprevPage.jsx": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/components/doc_comps/sidebar_Items.jsx": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/components/news_comps/NewsPage.jsx": [
+    "/website/assets/(items)-0fbc30eb.js"
+  ],
+  "src/configs.jsx": [
+  ],
+  "src/css/hljs.css": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/css/main.css": [
+    "/website/assets/index-6624b0bf.js",
+    "/website/assets/index-7148eea9.css",
+    "/website/assets/fa-brands-400-931d1733.eot",
+    "/website/assets/fa-brands-400-1f49b870.woff2",
+    "/website/assets/fa-brands-400-ef7234f1.woff",
+    "/website/assets/fa-brands-400-d7746d29.ttf",
+    "/website/assets/fa-brands-400-85eee115.svg",
+    "/website/assets/fa-regular-400-da05e5ee.eot",
+    "/website/assets/fa-regular-400-6a16c042.woff2",
+    "/website/assets/fa-regular-400-684157e4.woff",
+    "/website/assets/fa-regular-400-4e2fc1d3.ttf",
+    "/website/assets/fa-regular-400-e14de040.svg",
+    "/website/assets/fa-solid-900-d5342ae6.eot",
+    "/website/assets/fa-solid-900-cd398be1.woff2",
+    "/website/assets/fa-solid-900-c1450cdd.woff",
+    "/website/assets/fa-solid-900-9313de73.ttf",
+    "/website/assets/fa-solid-900-4ee1b170.svg"
+  ],
+  "src/css/markdown.css": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/css/style.css": [
+  ],
+  "src/entry-client.jsx": [
+  ],
+  "src/root.jsx": [
+  ],
+  "src/routes/(index).jsx": [
+    "/website/assets/(index)-09fac022.js",
+    "/website/assets/(index)-1553321f.css"
+  ],
+  "src/routes/(index)/[...404].jsx": [
+    "/website/assets/_...404_-3d5fd728.js"
+  ],
+  "src/routes/(index)/docs.jsx": [
+    "/website/assets/docs-c1ca1310.js",
+    "/website/assets/docs-ec6eb359.css"
+  ],
+  "src/routes/(index)/docs/contribute.mdx": [
+    "/website/assets/contribute-5a6b5353.js"
+  ],
+  "src/routes/(index)/docs/donate.mdx": [
+    "/website/assets/donate-aaa6d31a.js"
+  ],
+  "src/routes/(index)/docs/install/beginner.mdx": [
+    "/website/assets/beginner-9d7cb556.js"
+  ],
+  "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx": [
+    "/website/assets/boot-with-usb-89f8f1c6.js"
+  ],
+  "src/routes/(index)/docs/install/cli-install.mdx": [
+    "/website/assets/cli-install-8267c744.js"
+  ],
+  "src/routes/(index)/docs/install/welcome.mdx": [
+    "/website/assets/welcome-f5787f53.js"
+  ],
+  "src/routes/(index)/docs/keybindings/bspwm.mdx": [
+    "/website/assets/bspwm-baa3ef51.js"
+  ],
+  "src/routes/(index)/docs/keybindings/dwm.mdx": [
+    "/website/assets/dwm-baa3ef51.js"
+  ],
+  "src/routes/(index)/docs/old-contribute.mdx": [
+    "/website/assets/old-contribute-e0652290.js"
+  ],
+  "src/routes/(index)/docs/theinit.mdx": [
+    "/website/assets/theinit-0d2da344.js"
+  ],
+  "src/routes/(index)/docs/walkthrough/terminal.mdx": [
+    "/website/assets/terminal-4576cfbb.js"
+  ],
+  "src/routes/(index)/index.jsx": [
+    "/website/assets/index-6624b0bf.js",
+    "/website/assets/index-7148eea9.css",
+    "/website/assets/fa-brands-400-931d1733.eot",
+    "/website/assets/fa-brands-400-1f49b870.woff2",
+    "/website/assets/fa-brands-400-ef7234f1.woff",
+    "/website/assets/fa-brands-400-d7746d29.ttf",
+    "/website/assets/fa-brands-400-85eee115.svg",
+    "/website/assets/fa-regular-400-da05e5ee.eot",
+    "/website/assets/fa-regular-400-6a16c042.woff2",
+    "/website/assets/fa-regular-400-684157e4.woff",
+    "/website/assets/fa-regular-400-4e2fc1d3.ttf",
+    "/website/assets/fa-regular-400-e14de040.svg",
+    "/website/assets/fa-solid-900-d5342ae6.eot",
+    "/website/assets/fa-solid-900-cd398be1.woff2",
+    "/website/assets/fa-solid-900-c1450cdd.woff",
+    "/website/assets/fa-solid-900-9313de73.ttf",
+    "/website/assets/fa-solid-900-4ee1b170.svg"
+  ],
+  "src/routes/(index)/news/(items).jsx": [
+    "/website/assets/(items)-0fbc30eb.js"
+  ],
+  "src/routes/(index)/news/(items)/index.js": [
+    "/website/assets/index-b8d9d815.js"
+  ],
+  "src/routes/(index)/news/(items)/metis_V2.0.mdx": [
+    "/website/assets/metis_V2.0-49a3f6df.js"
+  ],
+  "src/routes/(index)/news/index.jsx": [
+    "/website/assets/index-b8d9d815.js"
+  ],
+  "src/utils.jsx": [
+    "/website/assets/utils-d06a10d5.js"
+  ]
+}
