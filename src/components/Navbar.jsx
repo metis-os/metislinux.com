@@ -29,7 +29,7 @@ function Links() {
       >
         <A href="/docs/install/welcome">Wiki</A>
        
-        <A href="/docs/walkthrough/terminal">Features</A>
+        <A href="/docs/walkthrough/utilities">Features</A>
  
         <A href="/news">News</A>
  

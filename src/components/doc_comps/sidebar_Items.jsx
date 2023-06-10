@@ -7,7 +7,7 @@ const sidebar_Items = [
     items: [
 
       ["Welcome", "install/welcome"],
-      ["Beginner", "instal/beginner"],
+      ["Beginner", "install/beginner"],
       ["1337", "quickstart /cli-install"],
     ],
   },
@@ -18,15 +18,8 @@ const sidebar_Items = [
   {
     label: ["Features", "i-mdi:atom-variant"],
     items: [
-      ["Terminal", "walkthrough/terminal"],
-    //  ["Snippets", "walkthrough/snippets"],
-    //  ["Manage Plugins", "walkthrough/plugins"],
-    //  ["Syntax highlighting", "walkthrough/syntax"],
-    //  ["LSP walkthroughuration", "config/lsp"],
-    //  ["Format & Lint", "walkthrough/format_lint"],
-    //  ["Mappings", "walkthrough/mappings"],
-    //  ["UI Customization", "walkthrough/metis_ui"],
-    //  ["Customize colors", "walkthrough/theming"],
+      ["Window Manager", "walkthrough/window-manager"],
+      ["Utilities", "walkthrough/utilities"],
     ],
   },
 
