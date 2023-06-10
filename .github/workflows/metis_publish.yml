@@ -1,4 +1,4 @@
-name: Building METIS website
+name: Building metis website
 
 on:
   push:
@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
 
       - name: install node and npm
         run: |
@@ -21,14 +22,19 @@ jobs:
             npm install
             npm run build
 
+
+
+
       - name: Pushes to the website repo
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }} # or API_TOKEN_GITHUB: ${{ secrets.API_GITHUB_TOKEN }}
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          API_TOKEN_GITHUB: ${{ secrets.API_GITHUB_TOKEN }}
         with:
-          source-directory: 'pages'
+          source-directory: 'dist'
           destination-github-username: 'pwnwriter'
           destination-repository-name: 'metislinux.org'
           user-email: hey@pwnwriter.xyz 
           target-branch: main
 
+          
