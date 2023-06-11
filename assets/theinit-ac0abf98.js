@@ -1,4 +1,4 @@
-import{b as n,v as a,g as i,t}from"./entry-client-7508a388.js";import{M as c}from"./index-30550716.js";const s=t("<br>",1),d=t('<a href="http://smarden.org/runit"> Official runit documentation</a>',2),o=t('<a href="https://docs.voidlinux.org/config/services/index.html"> Void linux handbook on runit </a>',2),h=t('<a href="https://wiki.artixlinux.org/Main/Runit"> Artix linux runit wiki </a>',2);function l(r){const e=Object.assign({h1:"h1",p:"p",strong:"strong",ul:"ul",li:"li",h2:"h2",code:"code",pre:"pre",span:"span"},c(),r.components);return[n(e.h1,{children:"The runit init system"}),`
+import{b as n,v as a,g as i,t}from"./entry-client-d6d7fee1.js";import{M as c}from"./index-0763bed5.js";const s=t("<br>",1),d=t('<a href="http://smarden.org/runit"> Official runit documentation</a>',2),o=t('<a href="https://docs.voidlinux.org/config/services/index.html"> Void linux handbook on runit </a>',2),h=t('<a href="https://wiki.artixlinux.org/Main/Runit"> Artix linux runit wiki </a>',2);function l(r){const e=Object.assign({h1:"h1",p:"p",strong:"strong",ul:"ul",li:"li",h2:"h2",code:"code",pre:"pre",span:"span"},c(),r.components);return[n(e.h1,{children:"The runit init system"}),`
 `,n(e.p,{children:"An init system is a critical component of an operating system that handles the starting and management of software processes. Think of it as the conductor of an orchestra, ensuring all the different components work together smoothly."}),`
 `,n(e.p,{children:"Now, let's zoom in on Runit. Runit is a specific init system commonly used in Unix-like operating systems. It stands out for its lightweight nature, meaning it doesn't consume a lot of system resources. It's designed to be simple and reliable, reducing the likelihood of encountering issues or complications."}),`
 `,n(e.p,{get children(){return["In simple terms, Runit is a suite of tools that provides an init ",n(e.strong,{children:"(PID 1)"})," and a process supervision framework compatible with daemontools. It also includes utilities that simplify the creation and maintenance of services."]}}),`
@@ -14,7 +14,8 @@ import{b as n,v as a,g as i,t}from"./entry-client-7508a388.js";import{M as c}fro
 `,n(e.li,{children:"sv"}),`
 `]}}),`
 `,n(e.h2,{children:"Installation"}),`
-`,n(e.p,{get children(){return["Install the ",n(e.code,{children:"runit"})," package."]}}),`
+`,n(e.p,{get children(){return["Install the ",n(e.code,{children:"runit"}),` package. It contains the necessary service files, for example
+for `,n(e.code,{children:"openssh"}),", you want to install ",n(e.code,{children:"openssh-runit"}),"."]}}),`
 `,n(e.h2,{children:"Installation of services"}),`
 `,n(e.p,{get children(){return["runit service packages are named ",n(e.code,{children:"package_name-runit"})," and, when installed, will be available in ",n(e.code,{children:"/etc/runit/sv."})]}}),`
 `,n(e.h2,{children:"Programs"}),`
@@ -124,4 +125,4 @@ svdir=`,n(e.span,{className:"hljs-string",get children(){return['"',n(e.span,{cl
 `,n(e.li,{get children(){return[`
 `,i(h),`
 `]}}),`
-`]}})]}function m(r={}){const{wrapper:e}=Object.assign({},c(),r.components);return e?n(e,a(r,{get children(){return n(l,r)}})):l(r)}export{m as default};
+`]}})]}function p(r={}){const{wrapper:e}=Object.assign({},c(),r.components);return e?n(e,a(r,{get children(){return n(l,r)}})):l(r)}export{p as default};

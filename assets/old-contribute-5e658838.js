@@ -1,4 +1,4 @@
-import{M as h}from"./index-30550716.js";import{b as n,v as i}from"./entry-client-7508a388.js";function t(r){const e=Object.assign({h1:"h1",p:"p",h3:"h3",ul:"ul",li:"li",a:"a"},h(),r.components);return[n(e.h1,{children:"Metis Linux Thanks Page"}),`
+import{M as h}from"./index-0763bed5.js";import{b as n,v as i}from"./entry-client-d6d7fee1.js";function t(r){const e=Object.assign({h1:"h1",p:"p",h3:"h3",ul:"ul",li:"li",a:"a"},h(),r.components);return[n(e.h1,{children:"Metis Linux Thanks Page"}),`
 `,n(e.p,{children:"Huge thanks and respect to each and every helping hands who made possible to create metis-os !!"}),`
 `,n(e.h3,{children:"Core Team"}),`
 `,n(e.ul,{get children(){return[`

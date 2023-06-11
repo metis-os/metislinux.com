@@ -51,7 +51,12 @@
      <priority>0.5</priority>
    </url>
   <url>
-     <loc>https://metis-linux.org/docs/walkthrough/terminal</loc>
+     <loc>https://metis-linux.org/docs/walkthrough/utilities</loc>
+     <changefreq>weekly</changefreq>
+     <priority>0.5</priority>
+   </url>
+  <url>
+     <loc>https://metis-linux.org/docs/walkthrough/window-manager</loc>
      <changefreq>weekly</changefreq>
      <priority>0.5</priority>
    </url>
