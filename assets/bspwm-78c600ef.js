@@ -1,4 +1,4 @@
-import{M as r}from"./index-0763bed5.js";import{b as n,v as o}from"./entry-client-d6d7fee1.js";function i(t){const e=Object.assign({h1:"h1",p:"p",ul:"ul",li:"li",h2:"h2",a:"a"},r(),t.components);return[n(e.h1,{children:"KeyMapping"}),`
+import{M as r}from"./index-8098ba96.js";import{b as n,v as o}from"./entry-client-c342a688.js";function i(t){const e=Object.assign({h1:"h1",p:"p",ul:"ul",li:"li",h2:"h2",a:"a"},r(),t.components);return[n(e.h1,{children:"KeyMapping"}),`
 `,n(e.p,{children:"The key bindings are defined in the window manager itself (dwm) which is configured in its config file (config.h)."}),`
 `,n(e.ul,{get children(){return[`
 `,n(e.li,{children:"Note: MOD is super (windows) key"}),`
