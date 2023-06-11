@@ -29,8 +29,7 @@
   "scripts": {
     "start": "npx serve dist",
     "dev": "solid-start dev",
-    "build": "solid-start build && echo "solid build done" && mv dist _dist && echo "move  _dist to dist done" && mv _dist/public dist echo "move _dist/public to dist done" && rm -rf _dist && echo "rm _ dist done" && cp -r CNAME dist && echo "cp cname to dist done" && node ./src/gen_sitemap.js" && echo "node ran"
-    "
+    "build": "solid-start build && mv dist _dist && mv _dist/public dist && rm -rf _dist && cp -r CNAME dist && node ./src/gen_sitemap.js"
   },
   "engines": {
     "node": ">=16.8"
