@@ -1,20 +1,20 @@
 {
-  "_index-358fda07.js": {
-    "file": "assets/index-358fda07.js",
+  "_index-1696092d.js": {
+    "file": "assets/index-1696092d.js",
     "imports": [
       "src/entry-client.jsx"
     ]
   },
-  "_metis_V2.0-fcfdb9e9.js": {
-    "file": "assets/metis_V2.0-fcfdb9e9.js",
+  "_metis_V2.0-74175c2b.js": {
+    "file": "assets/metis_V2.0-74175c2b.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true
   },
-  "_utils-2524e7ef.js": {
-    "file": "assets/utils-2524e7ef.js",
+  "_utils-c0f20f96.js": {
+    "file": "assets/utils-c0f20f96.js",
     "imports": [
       "src/entry-client.jsx"
     ]
@@ -45,10 +45,10 @@
       "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx",
       "src/routes/(index)/index.jsx",
       "src/routes/(index)/news/(items).jsx",
-      "_metis_V2.0-fcfdb9e9.js",
+      "_metis_V2.0-74175c2b.js",
       "src/routes/(index)/news/index.jsx"
     ],
-    "file": "assets/entry-client-ab59b0a0.js",
+    "file": "assets/entry-client-d502ef10.js",
     "isEntry": true,
     "src": "src/entry-client.jsx"
   },
@@ -60,17 +60,17 @@
     "css": [
       "assets/(index)-1553321f.css"
     ],
-    "file": "assets/(index)-a83f874c.js",
+    "file": "assets/(index)-3954ac75.js",
     "imports": [
       "src/entry-client.jsx",
       "src/routes/(index)/docs.jsx",
-      "_utils-2524e7ef.js"
+      "_utils-c0f20f96.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index).jsx"
   },
   "src/routes/(index)/[...404].jsx": {
-    "file": "assets/_...404_-bbe601a8.js",
+    "file": "assets/_...404_-715e5b53.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -85,118 +85,118 @@
     "css": [
       "assets/docs-ec6eb359.css"
     ],
-    "file": "assets/docs-50edf114.js",
+    "file": "assets/docs-b010ce6e.js",
     "imports": [
       "src/entry-client.jsx",
-      "_utils-2524e7ef.js"
+      "_utils-c0f20f96.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs.jsx"
   },
   "src/routes/(index)/docs/contribute.mdx": {
-    "file": "assets/contribute-ab054fbb.js",
+    "file": "assets/contribute-fc324775.js",
     "imports": [
-      "_index-358fda07.js",
+      "_index-1696092d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/contribute.mdx"
   },
   "src/routes/(index)/docs/donate.mdx": {
-    "file": "assets/donate-a822cd6e.js",
+    "file": "assets/donate-ab86ccd7.js",
     "imports": [
-      "_index-358fda07.js",
+      "_index-1696092d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/donate.mdx"
   },
   "src/routes/(index)/docs/install/beginner.mdx": {
-    "file": "assets/beginner-7568161e.js",
+    "file": "assets/beginner-6a4539bc.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/beginner.mdx"
   },
   "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx": {
-    "file": "assets/boot-with-usb-29ae4728.js",
+    "file": "assets/boot-with-usb-5f021eeb.js",
     "imports": [
-      "_index-358fda07.js",
+      "_index-1696092d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx"
   },
   "src/routes/(index)/docs/install/cli-install.mdx": {
-    "file": "assets/cli-install-17547157.js",
+    "file": "assets/cli-install-f4af7c0c.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/cli-install.mdx"
   },
   "src/routes/(index)/docs/install/welcome.mdx": {
-    "file": "assets/welcome-4f6c10b9.js",
+    "file": "assets/welcome-4595316a.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/welcome.mdx"
   },
   "src/routes/(index)/docs/keybindings/bspwm.mdx": {
-    "file": "assets/bspwm-baaed191.js",
+    "file": "assets/bspwm-ae16bc3c.js",
     "imports": [
-      "_index-358fda07.js",
+      "_index-1696092d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/keybindings/bspwm.mdx"
   },
   "src/routes/(index)/docs/keybindings/dwm.mdx": {
-    "file": "assets/dwm-baaed191.js",
+    "file": "assets/dwm-ae16bc3c.js",
     "imports": [
-      "_index-358fda07.js",
+      "_index-1696092d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/keybindings/dwm.mdx"
   },
   "src/routes/(index)/docs/old-contribute.mdx": {
-    "file": "assets/old-contribute-9d2bb070.js",
+    "file": "assets/old-contribute-f16f455e.js",
     "imports": [
-      "_index-358fda07.js",
+      "_index-1696092d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/old-contribute.mdx"
   },
   "src/routes/(index)/docs/theinit.mdx": {
-    "file": "assets/theinit-c8babff6.js",
+    "file": "assets/theinit-4c05cda7.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/theinit.mdx"
   },
   "src/routes/(index)/docs/walkthrough/utilities.mdx": {
-    "file": "assets/utilities-72c7efb0.js",
+    "file": "assets/utilities-4657c587.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/walkthrough/utilities.mdx"
   },
   "src/routes/(index)/docs/walkthrough/window-manager.mdx": {
-    "file": "assets/window-manager-9ffa3d0d.js",
+    "file": "assets/window-manager-6b4751ba.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-358fda07.js"
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/walkthrough/window-manager.mdx"
@@ -226,7 +226,7 @@
     "css": [
       "assets/index-80f5a054.css"
     ],
-    "file": "assets/index-ca5bb055.js",
+    "file": "assets/index-e426c831.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -234,20 +234,20 @@
     "src": "src/routes/(index)/index.jsx"
   },
   "src/routes/(index)/news/(items).jsx": {
-    "file": "assets/(items)-46c46edc.js",
+    "file": "assets/(items)-e90dee6f.js",
     "imports": [
       "src/entry-client.jsx",
-      "_utils-2524e7ef.js"
+      "_utils-c0f20f96.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/news/(items).jsx"
   },
   "src/routes/(index)/news/index.jsx": {
-    "file": "assets/index-badff098.js",
+    "file": "assets/index-82eb6cda.js",
     "imports": [
       "src/entry-client.jsx",
-      "_metis_V2.0-fcfdb9e9.js",
-      "_index-358fda07.js"
+      "_metis_V2.0-74175c2b.js",
+      "_index-1696092d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/news/index.jsx"

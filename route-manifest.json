@@ -2,11 +2,11 @@
   "/(index)": [
     {
       "type": "script",
-      "href": "/assets/(index)-a83f874c.js"
+      "href": "/assets/(index)-3954ac75.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -14,11 +14,11 @@
     },
     {
       "type": "script",
-      "href": "/assets/docs-50edf114.js"
+      "href": "/assets/docs-b010ce6e.js"
     },
     {
       "type": "script",
-      "href": "/assets/utils-2524e7ef.js"
+      "href": "/assets/utils-c0f20f96.js"
     },
     {
       "type": "style",
@@ -32,11 +32,11 @@
   "/(index)/*404": [
     {
       "type": "script",
-      "href": "/assets/_...404_-bbe601a8.js"
+      "href": "/assets/_...404_-715e5b53.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -46,11 +46,11 @@
   "/(index)/docs": [
     {
       "type": "script",
-      "href": "/assets/docs-50edf114.js"
+      "href": "/assets/docs-b010ce6e.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -58,7 +58,7 @@
     },
     {
       "type": "script",
-      "href": "/assets/utils-2524e7ef.js"
+      "href": "/assets/utils-c0f20f96.js"
     },
     {
       "type": "style",
@@ -68,15 +68,15 @@
   "/(index)/docs/contribute": [
     {
       "type": "script",
-      "href": "/assets/contribute-ab054fbb.js"
+      "href": "/assets/contribute-fc324775.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -86,15 +86,15 @@
   "/(index)/docs/donate": [
     {
       "type": "script",
-      "href": "/assets/donate-a822cd6e.js"
+      "href": "/assets/donate-ab86ccd7.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -104,11 +104,11 @@
   "/(index)/docs/install/beginner": [
     {
       "type": "script",
-      "href": "/assets/beginner-7568161e.js"
+      "href": "/assets/beginner-6a4539bc.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -116,21 +116,21 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/docs/install/boot-iso/boot-with-usb": [
     {
       "type": "script",
-      "href": "/assets/boot-with-usb-29ae4728.js"
+      "href": "/assets/boot-with-usb-5f021eeb.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -140,11 +140,11 @@
   "/(index)/docs/install/cli-install": [
     {
       "type": "script",
-      "href": "/assets/cli-install-17547157.js"
+      "href": "/assets/cli-install-f4af7c0c.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -152,17 +152,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/docs/install/welcome": [
     {
       "type": "script",
-      "href": "/assets/welcome-4f6c10b9.js"
+      "href": "/assets/welcome-4595316a.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -170,21 +170,21 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/docs/keybindings/bspwm": [
     {
       "type": "script",
-      "href": "/assets/bspwm-baaed191.js"
+      "href": "/assets/bspwm-ae16bc3c.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -194,15 +194,15 @@
   "/(index)/docs/keybindings/dwm": [
     {
       "type": "script",
-      "href": "/assets/dwm-baaed191.js"
+      "href": "/assets/dwm-ae16bc3c.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -212,15 +212,15 @@
   "/(index)/docs/old-contribute": [
     {
       "type": "script",
-      "href": "/assets/old-contribute-9d2bb070.js"
+      "href": "/assets/old-contribute-f16f455e.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -230,11 +230,11 @@
   "/(index)/docs/theinit": [
     {
       "type": "script",
-      "href": "/assets/theinit-c8babff6.js"
+      "href": "/assets/theinit-4c05cda7.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -242,17 +242,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/docs/walkthrough/utilities": [
     {
       "type": "script",
-      "href": "/assets/utilities-72c7efb0.js"
+      "href": "/assets/utilities-4657c587.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -260,17 +260,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/docs/walkthrough/window-manager": [
     {
       "type": "script",
-      "href": "/assets/window-manager-9ffa3d0d.js"
+      "href": "/assets/window-manager-6b4751ba.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -278,17 +278,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/": [
     {
       "type": "script",
-      "href": "/assets/index-ca5bb055.js"
+      "href": "/assets/index-e426c831.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -362,11 +362,11 @@
   "/(index)/news/(items)": [
     {
       "type": "script",
-      "href": "/assets/(items)-46c46edc.js"
+      "href": "/assets/(items)-e90dee6f.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -374,17 +374,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/utils-2524e7ef.js"
+      "href": "/assets/utils-c0f20f96.js"
     }
   ],
   "/(index)/news/(items)/": [
     {
       "type": "script",
-      "href": "/assets/index-badff098.js"
+      "href": "/assets/index-82eb6cda.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -392,21 +392,21 @@
     },
     {
       "type": "script",
-      "href": "/assets/metis_V2.0-fcfdb9e9.js"
+      "href": "/assets/metis_V2.0-74175c2b.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/news/(items)/metis_V2.0": [
     {
       "type": "script",
-      "href": "/assets/metis_V2.0-fcfdb9e9.js"
+      "href": "/assets/metis_V2.0-74175c2b.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -414,17 +414,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "/(index)/news/": [
     {
       "type": "script",
-      "href": "/assets/index-badff098.js"
+      "href": "/assets/index-82eb6cda.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
@@ -432,17 +432,17 @@
     },
     {
       "type": "script",
-      "href": "/assets/metis_V2.0-fcfdb9e9.js"
+      "href": "/assets/metis_V2.0-74175c2b.js"
     },
     {
       "type": "script",
-      "href": "/assets/index-358fda07.js"
+      "href": "/assets/index-1696092d.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/assets/entry-client-ab59b0a0.js"
+      "href": "/assets/entry-client-d502ef10.js"
     },
     {
       "type": "style",
