@@ -32,9 +32,9 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_GITHUB_TOKEN }}
         with:
           source-directory: 'dist'
-          destination-github-username: 'pwnwriter'
+          destination-github-username: 'metis-os'
           destination-repository-name: 'metislinux.org'
           user-email: hey@pwnwriter.xyz 
-          target-branch: main
+          target-branch: deploy-site
 
           
