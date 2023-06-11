@@ -23,6 +23,7 @@ function Homepage(){
 	setInterval(()=>{
 		img.src ="/slideshow/"+imageUrls[current];
 		current = (current+1) % imageUrls.length;
+                console.log(current);
 	},4000)
 
 }//slideshow
