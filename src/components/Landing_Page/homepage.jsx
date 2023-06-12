@@ -98,33 +98,6 @@ createEffect(slideshow)
 </section>
 </div>
 
-<footer id="footer">
-  <section>
-    <h2>Donate</h2>
-    <p>If you are enjoying MetisLinux, please consider supporting us. Your donation will help MetisLinux improve, grow, and ensure its maintenance, updates, and continuous development.</p>
-    <ul class="actions">
-      <li><a href="/docs/donate" class="button">Donate Now</a></li>
-    </ul>
-  </section>
-  <section>
-    <h2>Important Links</h2>
-    <p>Here are some important links related to MetisLinux:</p>
-    <ul class="icons">
-      <li><a href="https://github.com/metis-os" target="_blank" class="icon brands fa-github alt"><span class="label">MetisLinux GitHub</span></a></li>
-      <li><a href="https://github.com/metis-os/metis-repo" target="_blank" class="icon solid fa-code alt"><span class="label">Repository</span></a></li>
-      <li><a href="https://github.com/metis-os/skeleton" target="_blank" class="icon solid fa-folder-open alt"><span class="label">Skeleton</span></a></li>
-      <li><a href="https://github.com/metis-os/metislinux/issues" target="_blank" class="icon solid fa-bug alt"><span class="label">Issues</span></a></li>
-      <li><a href="https://github.com/pwnwriter" target="_blank" class="icon solid fa-user alt"><span class="label">PwnWriter's GitHub</span></a></li>
-    </ul>
-  </section>
-  <h2 class="copyright">
-    <script>
-      document.write(new Date().getFullYear());
-    </script>
-          &nbsp;
-    &copy; METIS Linux  // <a href="https://github.com/pwnwriter" target="_blank">PwnWriter</a>
-  </h2>
-</footer>
 
 </div>
 

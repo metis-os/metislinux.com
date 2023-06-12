@@ -8,7 +8,7 @@ const sidebar_Items = [
 
       ["Welcome", "install/welcome"],
       ["Beginner", "install/beginner"],
-      ["1337", "quickstart /cli-install"],
+      ["1337", "install/cli-install"],
     ],
   },
 
