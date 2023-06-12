@@ -10,7 +10,7 @@ Assuming you are aleady booted into *metislinux* ISO and the internet is working
 
 Open **terminal** with *(super + enter)* and follow along the below guide.
 
-# initializing the disk
+## Initializing the disk
 Once you booted into the iso, do `lsblk` and see on which disk to install metislinux on. I'll be installing on my `nvme0n1` drive.
 ```bash
 $ lsblk
@@ -20,7 +20,7 @@ sdb       8:16    1    29.3G   0                                # pendrive of me
 nvme0n1   259:0   0    119.2G  0 disk                           # installation drive
 ```
 
-# For `UEFI`
+## Creating partitions
 - Use `fdisk` to create two partition out of the disk, and format the boot partition with `mkfs.vfat -F32` and another with `mkfs.ext4` 
 - Now, mount the `root partition`  to `/mnt`.
 - Create a `boot` directory inside `/mnt` (You can also use `/boot/efi`). 
@@ -37,7 +37,7 @@ nvme0n1   259:0   0    119.2G  0 disk                           # installation d
 
 <br />
 
-
+## Install base system
 Now, it's time to install the `base` packages from the `repo`.
 run
 ```bash
@@ -56,6 +56,8 @@ libnotify grub mpv ffmpeg pipewire pipewire-pulse wireplumber rustup metis-grub-
 
 > Note, I've installed the very basic packages , you can even filter out on this and choose which to install !!
 
+## Generate fstab
+
 Now, it's time to generate `fstab` of our system. 
 ```bash
 $ fastabgen -U /mnt /mnt/etc/fstab 
@@ -72,11 +74,28 @@ $ fastabgen -U /mnt /mnt/etc/fstab
 
 <br />
 
+If you want to create a swap partition, then run
+
+```bash
+$ dd if=/dev/zero of=/swapfile bs=1G count=2 status=progress
+```
+<br/>
+
+It will create a swapfile of `2GIB`, you can adjust by increasing // decreasing the bs,count value.
+After creating the swapfile, we need to add into our fstab file so that every time we boot into our system, it automatically detects the partition to mount.
+to do so, just exit out the shell and run 
+
+```bash
+$ fastabgen -U /mnt /mnt/etc/fstab && metis-chroot /mnt
+```
+
+
+## Chroot into the system
 Now, `chroot into the new system`
 ```bash
 $ metis-chroot /mnt /bin/bash # this will open a bash(chroot) instance of newly installed system. you can switch to another shell also.
 ```
-
+## Setup time zone
 Now, `symlink` your localtime and `hardwareclock` as follows
 
 
@@ -97,6 +116,8 @@ $ ln -sf /usr/share/zoneinfo/Asia/kathmandu/  /etc/localtime
 
 here,  `writer` is my machine name and `Asia/kathmandu` is my localtime.
 
+## Install bootloader
+
 After doing this, we can install the `grub` bootloader as below.
 
 
@@ -109,7 +130,33 @@ After doing this, we can install the `grub` bootloader as below.
 
 <br />
 
-After installing grub, we can reboot the system.
+## Adding users
+
+After installing grub, we can add a normal user and give a password to it .
+to add a normal user run 
+```bash
+$ useradd -mG wheel,video,audio,power,dbus,storage <username> #the groups listed here are most necessary ones
+```
+
+now, run 
+```bash
+$ passwd root 
+$ passwd <normal_user>
+```
+to set password of users and now we can give ***sudo privilege to wheel group users*** by running the following and uncommenting the line 
+```%wheel ALL=(ALL) ALL```
+
+```bash
+$ EDITOR=nvim visudo  
+
+```
+<br/>
+
+and 
+Now, we can simply reboot the system by unmounting the drives as follows. If everything went well, you'll see a grub menu to select 
+metislinux to boot.
+
+
 ```bash
 $ exit 
 $ umount -Rl /mnt
@@ -117,5 +164,19 @@ $ umount -Rl /mnt
 
 # Setting up services
 
-runit system is a lil' bit than other, it uses symlinking way to enable services in the system.
+Runit system is a lil' bit different than other, it uses symlinking feature to enable services in the system. after exiting out of the system, go and login into your newly
+installed system. if it was an another init system, we could be just enabling the services right after the base install but in `runit`, 
+we actually symlink the services from `/etc/runit/sv/<service_name>` to `/run/runit/service/<service_name>`, eg `NetworkManager`
+
+To enable `NetworkManager` we can do the following
+```bash
+$ sudo ln -s /etc/runit/service/NetworkManager /run/runit/service/NetworkManager
+```
+
+It goes similar to any other services
+
+## Read more 
+
+- [The runit init (metislinux docx)](https://metislinux.org/docs/theinit)
+
 
