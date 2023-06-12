@@ -6,11 +6,11 @@
   "assets/entry-client-!~{001}~.js-unocss-hash.css": [
   ],
   "node_modules/@docsearch/css/dist/style.css": [
-    "/assets/(index)-3e34981f.js",
+    "/assets/(index)-9426e6e8.js",
     "/assets/(index)-1553321f.css"
   ],
   "node_modules/@docsearch/js/dist/esm/index.js": [
-    "/assets/(index)-3e34981f.js",
+    "/assets/(index)-9426e6e8.js",
     "/assets/(index)-1553321f.css"
   ],
   "node_modules/@solidjs/meta/dist/index.jsx": [
@@ -28,12 +28,12 @@
   "node_modules/solid-js/dist/solid.js": [
   ],
   "node_modules/solid-js/store/dist/store.js": [
-    "/assets/utils-eea51cd4.js"
+    "/assets/utils-7c72908a.js"
   ],
   "node_modules/solid-js/web/dist/web.js": [
   ],
   "node_modules/solid-mdx/dist/index.mjs": [
-    "/assets/index-07dbb31f.js"
+    "/assets/index-790ebfdd.js"
   ],
   "node_modules/solid-start/entry-client/StartClient.tsx": [
   ],
@@ -52,12 +52,12 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/assets/_...404_-c68f26f6.js"
+    "/assets/_...404_-518634a8.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Landing_Page/homepage.jsx": [
-    "/assets/index-150dd162.js",
+    "/assets/index-f4e2915a.js",
     "/assets/index-80f5a054.css",
     "/assets/fa-brands-400-931d1733.eot",
     "/assets/fa-brands-400-1f49b870.woff2",
@@ -76,36 +76,36 @@
     "/assets/fa-solid-900-4ee1b170.svg"
   ],
   "src/components/Navbar.jsx": [
-    "/assets/(index)-3e34981f.js",
+    "/assets/(index)-9426e6e8.js",
     "/assets/(index)-1553321f.css"
   ],
   "src/components/doc_comps/Sidebar.jsx": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/doc_comps/clipboard.jsx": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/doc_comps/nextprevPage.jsx": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/doc_comps/sidebar_Items.jsx": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/news_comps/NewsPage.jsx": [
-    "/assets/(items)-05b4adcc.js"
+    "/assets/(items)-0a998301.js"
   ],
   "src/configs.jsx": [
   ],
   "src/css/hljs.css": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/css/main.css": [
-    "/assets/index-150dd162.js",
+    "/assets/index-f4e2915a.js",
     "/assets/index-80f5a054.css",
     "/assets/fa-brands-400-931d1733.eot",
     "/assets/fa-brands-400-1f49b870.woff2",
@@ -124,7 +124,7 @@
     "/assets/fa-solid-900-4ee1b170.svg"
   ],
   "src/css/markdown.css": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/css/style.css": [
@@ -134,54 +134,54 @@
   "src/root.jsx": [
   ],
   "src/routes/(index).jsx": [
-    "/assets/(index)-3e34981f.js",
+    "/assets/(index)-9426e6e8.js",
     "/assets/(index)-1553321f.css"
   ],
   "src/routes/(index)/[...404].jsx": [
-    "/assets/_...404_-c68f26f6.js"
+    "/assets/_...404_-518634a8.js"
   ],
   "src/routes/(index)/docs.jsx": [
-    "/assets/docs-ae879213.js",
+    "/assets/docs-068334ed.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/routes/(index)/docs/contribute.mdx": [
-    "/assets/contribute-07e2ea2f.js"
+    "/assets/contribute-9de7ee83.js"
   ],
   "src/routes/(index)/docs/donate.mdx": [
-    "/assets/donate-8e9b60ee.js"
+    "/assets/donate-5de70448.js"
   ],
   "src/routes/(index)/docs/install/beginner.mdx": [
-    "/assets/beginner-bd463733.js"
+    "/assets/beginner-7f259540.js"
   ],
   "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx": [
-    "/assets/boot-with-usb-043ab035.js"
+    "/assets/boot-with-usb-861a7a62.js"
   ],
   "src/routes/(index)/docs/install/cli-install.mdx": [
-    "/assets/cli-install-026f7500.js"
+    "/assets/cli-install-eae582be.js"
   ],
   "src/routes/(index)/docs/install/welcome.mdx": [
-    "/assets/welcome-e85c9271.js"
+    "/assets/welcome-742107a2.js"
   ],
   "src/routes/(index)/docs/keybindings/bspwm.mdx": [
-    "/assets/bspwm-76e0a9e5.js"
+    "/assets/bspwm-77200049.js"
   ],
   "src/routes/(index)/docs/keybindings/dwm.mdx": [
-    "/assets/dwm-76e0a9e5.js"
+    "/assets/dwm-77200049.js"
   ],
   "src/routes/(index)/docs/old-contribute.mdx": [
-    "/assets/old-contribute-7749202c.js"
+    "/assets/old-contribute-9425d0be.js"
   ],
   "src/routes/(index)/docs/theinit.mdx": [
-    "/assets/theinit-54fd86a9.js"
+    "/assets/theinit-b23d69b1.js"
   ],
   "src/routes/(index)/docs/walkthrough/utilities.mdx": [
-    "/assets/utilities-3b7c026f.js"
+    "/assets/utilities-ac847dd7.js"
   ],
   "src/routes/(index)/docs/walkthrough/window-manager.mdx": [
-    "/assets/window-manager-461aee5e.js"
+    "/assets/window-manager-b06bdad2.js"
   ],
   "src/routes/(index)/index.jsx": [
-    "/assets/index-150dd162.js",
+    "/assets/index-f4e2915a.js",
     "/assets/index-80f5a054.css",
     "/assets/fa-brands-400-931d1733.eot",
     "/assets/fa-brands-400-1f49b870.woff2",
@@ -200,18 +200,18 @@
     "/assets/fa-solid-900-4ee1b170.svg"
   ],
   "src/routes/(index)/news/(items).jsx": [
-    "/assets/(items)-05b4adcc.js"
+    "/assets/(items)-0a998301.js"
   ],
   "src/routes/(index)/news/(items)/index.js": [
-    "/assets/index-28bb57d4.js"
+    "/assets/index-830ed693.js"
   ],
   "src/routes/(index)/news/(items)/metis_V2.0.mdx": [
-    "/assets/metis_V2.0-20bfb139.js"
+    "/assets/metis_V2.0-7980903d.js"
   ],
   "src/routes/(index)/news/index.jsx": [
-    "/assets/index-28bb57d4.js"
+    "/assets/index-830ed693.js"
   ],
   "src/utils.jsx": [
-    "/assets/utils-eea51cd4.js"
+    "/assets/utils-7c72908a.js"
   ]
 }
