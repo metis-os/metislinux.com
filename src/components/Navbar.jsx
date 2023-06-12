@@ -92,7 +92,7 @@ export function BtnLinks() {
   const Btns = [
     [
       "i-ph:chat-teardrop-text text-3xl",
-      "#community",
+      "/docs/contribute",
       "metisLinux discussions",
     ],
     ["i-bi:github  ", "https://github.com/metis-os", "Github repo"],
