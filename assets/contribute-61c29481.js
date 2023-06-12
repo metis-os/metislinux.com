@@ -1,4 +1,4 @@
-import{M as i}from"./index-753e6b92.js";import{b as n,v as o}from"./entry-client-df68d362.js";function r(t){const e=Object.assign({h1:"h1",p:"p",a:"a",h2:"h2",h3:"h3",ul:"ul",li:"li",strong:"strong"},i(),t.components);return[n(e.h1,{children:"Contibute 🥰"}),`
+import{M as i}from"./index-e554ed51.js";import{b as n,v as o}from"./entry-client-e57a51d0.js";function r(t){const e=Object.assign({h1:"h1",p:"p",a:"a",h2:"h2",h3:"h3",ul:"ul",li:"li",strong:"strong"},i(),t.components);return[n(e.h1,{children:"Contibute 🥰"}),`
 `,n(e.p,{children:"Metis Linux is an open source project, and it would not be possible without the support of the community. We encourage contributors of all skill sets and backgrounds!"}),`
 `,n(e.p,{get children(){return["If you have any questions, feel free to ask them via our ",n(e.a,{href:"https://t.me/metislinux",children:"Telegram"})," or in the ",n(e.a,{href:"",children:"Discord"})," community."]}}),`
 `,n(e.h2,{children:"Prefer to help financially?"}),`
