@@ -1,0 +1,57 @@
+# METIS Linux repository structure
+
+METIS Linux currently ships three repos,
+
+1. [Andromeda](https://github.com/metis-os/repo-andromeda) -> METIS System packages.
+2. [Cosmic](https://github.com/metis-os/repo-cosmic) -> Extra packages for the system.
+3. [Recon](https://github.com/metis-os/repo-recon) -> Hacking tools for metislinux.
+
+All the pkgbuild scripts are available [here](https://github.com/metis-os/metis-pkgs)
+
+ 
+
+
+- The repo structure // servers are very simple,
+
+```bash 
+Server = https://metis-os.github.io/repo-(repo-name)/$repo/os/$arch>
+
+substitute for `andromeda,cosmic ,recon`
+````
+<br/>
+- Pacman should look for the repo something like below
+
+```bash
+# /etc/pacman.conf
+[andromeda] 
+SigLevel = Optional TrustAll
+Include = /etc/pacman.d/metis-mirrorlist-andromeda
+```
+<br/>
+
+```bash
+# /etc/pacman.d/metis-mirrorlist-andromeda 
+# main server
+Server = https://metis-os.github.io/repo-andromeda/$repo/os/$arch
+```
+<br/>
+
+> Andromeda is an example, the same way goes to other 2s
+
+## Adding new packages
+
+If you want to contribute to the repo, just follow the below steps
+
+- Fork a repo, for example *`repo-recon`*
+
+```bash
+$ git clone git@github.com:<your-username>/repo-recon
+$ git pull # just to make sure everything is up to date
+$ add your pkgname.pkg.tar.zst in repo-recon/recon/os/x86_64
+
+```
+<br/>
+
+```bash
+$ run ./repo_updater.sh -c -u -g # respectively. it will ask for a commit message and give a precise commit message, done 
+```

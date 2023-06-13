@@ -1,0 +1,84 @@
+# PwnVim (neovim) guide.
+
+[Pwnvim](https://github.com/metis-os/pwnvim) is a neovim framework for metislinux. It used to be my personal config as the name suggests
+but later i descided to move the repo to metislinux and improve it for the overall community. In this guide i'll be explaining how we can 
+add *`language servers`*  and *`Debug adapters`* in our config to use it.
+
+
+
+## Installing a language tresitter
+- Tresitter parsers are basically for code highlights, normally colors add white blocks to your code. So, to install a `tresitter` 
+we can    Run `:TSInstall [language]` to install the [tree-sitter][tree-sitter] parser for the given language.
+
+
+## Installing a language server
+- To install a language server, we can use `mason`,  and yeah it's already configured inside the neovim.
+        just run `:MasonInstall [language server]` eg. `MasonInstall rust-analyzer`
+
+
+See [`:help lspconfig-all`][lspconfig-all] to get an understanding of how
+    you would setup a language server protocol.
+
+  ```lua
+    -- settings/servers.lua
+    local lspconfig = require("lspconfig")
+
+    -- $ rustup component add rust-analyzer
+    lspconfig.rust_analyzer.setup({
+      cmd = { "rustup", "run", "stable", "rust-analyzer" },
+    })
+    ```
+<br/>
+-   View [the docs](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md) to figure out how you are expected to
+    configure a source.
+
+    ```lua
+    -- settings/sources.lua
+    local null = require("null-ls")
+
+    -- $ cargo install stylua
+    null.register(null.builtins.formatting.stylua)
+    ```
+
+<br/>
+-   Check out [the wiki](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation) for further information on setting up a
+    debug adapter and configuring it.
+
+```lua
+    -- settings/adapters.lua
+    local dap = require("dap")
+
+    -- https://github.com/vadimcn/codelldb
+    dap.adapters.codelldb = {
+      type = "server",
+      port = "${port}",
+      executable = {
+        command = vim.fs.normalize("/path/to/codelldb/extension/adapter/codelldb"),
+        args = { "--port", "${port}" },
+      },
+    }
+    ```
+<br/>
+
+    ```json
+    // ${workspaceFolder}/.vscode/launch.json
+    {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "codelldb",
+                "request": "launch",
+                "name": "Debug",
+                "cwd": "${workspaceFolder}",
+                "program": "${workspaceFolder}/path/to/program",
+                "args": []
+            }
+        ]
+    }
+    ```
+
+<br/>
+-   Set `NVIM_DEV` environment variable to modify where [lazy.nvim](https://github.com/folke/lazy.nvim)
+    should look for `dev = true` plugins.
+
+
