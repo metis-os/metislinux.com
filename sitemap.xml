@@ -11,12 +11,27 @@
      <priority>0.5</priority>
    </url>
   <url>
-     <loc>https://metis-linux.org/docs/install/beginner</loc>
+     <loc>https://metis-linux.org/docs/guides/patch-suckless</loc>
      <changefreq>weekly</changefreq>
      <priority>0.5</priority>
    </url>
   <url>
-     <loc>https://metis-linux.org/docs/install/boot-iso/boot-with-usb</loc>
+     <loc>https://metis-linux.org/docs/guides/pwnvim</loc>
+     <changefreq>weekly</changefreq>
+     <priority>0.5</priority>
+   </url>
+  <url>
+     <loc>https://metis-linux.org/docs/guides/repos</loc>
+     <changefreq>weekly</changefreq>
+     <priority>0.5</priority>
+   </url>
+  <url>
+     <loc>https://metis-linux.org/docs/guides/theinit</loc>
+     <changefreq>weekly</changefreq>
+     <priority>0.5</priority>
+   </url>
+  <url>
+     <loc>https://metis-linux.org/docs/install/beginner</loc>
      <changefreq>weekly</changefreq>
      <priority>0.5</priority>
    </url>
@@ -42,11 +57,6 @@
    </url>
   <url>
      <loc>https://metis-linux.org/docs/old-contribute</loc>
-     <changefreq>weekly</changefreq>
-     <priority>0.5</priority>
-   </url>
-  <url>
-     <loc>https://metis-linux.org/docs/theinit</loc>
      <changefreq>weekly</changefreq>
      <priority>0.5</priority>
    </url>

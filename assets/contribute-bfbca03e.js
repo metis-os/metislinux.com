@@ -1,6 +1,6 @@
-import{M as i}from"./index-e554ed51.js";import{b as n,v as o}from"./entry-client-e57a51d0.js";function r(t){const e=Object.assign({h1:"h1",p:"p",a:"a",h2:"h2",h3:"h3",ul:"ul",li:"li",strong:"strong"},i(),t.components);return[n(e.h1,{children:"Contibute 🥰"}),`
+import{M as i}from"./index-5ff2be6d.js";import{b as n,v as o}from"./entry-client-95b0c7d2.js";function r(t){const e=Object.assign({h1:"h1",p:"p",a:"a",h2:"h2",h3:"h3",ul:"ul",li:"li",strong:"strong"},i(),t.components);return[n(e.h1,{children:"Contibute 🥰"}),`
 `,n(e.p,{children:"Metis Linux is an open source project, and it would not be possible without the support of the community. We encourage contributors of all skill sets and backgrounds!"}),`
-`,n(e.p,{get children(){return["If you have any questions, feel free to ask them via our ",n(e.a,{href:"https://t.me/metislinux",children:"Telegram"})," or in the ",n(e.a,{href:"",children:"Discord"})," community."]}}),`
+`,n(e.p,{get children(){return["If you have any questions, feel free to ask them via our ",n(e.a,{href:"https://t.me/metislinux",children:"Telegram"})," or in the ",n(e.a,{href:"https://discord.com/invite/zuXbT42u",children:"Discord"})," community."]}}),`
 `,n(e.h2,{children:"Prefer to help financially?"}),`
 `,n(e.p,{get children(){return["Head over to the ",n(e.a,{href:"https://metislinux.org/docs/donate",children:"Donate"})," page for more information."]}}),`
 `,n(e.h3,{children:"New to this kind of thing?"}),`
@@ -28,6 +28,12 @@ import{M as i}from"./index-e554ed51.js";import{b as n,v as o}from"./entry-client
 `,n(e.p,{children:"Website:"}),`
 `,n(e.ul,{get children(){return[`
 `,n(e.li,{children:"Help us translate, improve, and fix. Even if it's just a grammar mistake, your assistance would be greatly appreciated."}),`
+`]}}),`
+`]}}),`
+`,n(e.li,{get children(){return[`
+`,n(e.p,{children:"Repos"}),`
+`,n(e.ul,{get children(){return[`
+`,n(e.li,{get children(){return["if you want to submit your package head over to ",n(e.a,{href:"/docs/guides/repos",children:"repos"})]}}),`
 `]}}),`
 `]}}),`
 `]}}),`

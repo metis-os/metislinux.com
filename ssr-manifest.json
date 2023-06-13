@@ -6,11 +6,11 @@
   "assets/entry-client-!~{001}~.js-unocss-hash.css": [
   ],
   "node_modules/@docsearch/css/dist/style.css": [
-    "/assets/(index)-89cfb666.js",
+    "/assets/(index)-6487b6bd.js",
     "/assets/(index)-1553321f.css"
   ],
   "node_modules/@docsearch/js/dist/esm/index.js": [
-    "/assets/(index)-89cfb666.js",
+    "/assets/(index)-6487b6bd.js",
     "/assets/(index)-1553321f.css"
   ],
   "node_modules/@solidjs/meta/dist/index.jsx": [
@@ -28,12 +28,12 @@
   "node_modules/solid-js/dist/solid.js": [
   ],
   "node_modules/solid-js/store/dist/store.js": [
-    "/assets/utils-aee29c97.js"
+    "/assets/utils-ce08745c.js"
   ],
   "node_modules/solid-js/web/dist/web.js": [
   ],
   "node_modules/solid-mdx/dist/index.mjs": [
-    "/assets/index-e554ed51.js"
+    "/assets/index-5ff2be6d.js"
   ],
   "node_modules/solid-start/entry-client/StartClient.tsx": [
   ],
@@ -52,12 +52,12 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/assets/_...404_-74b127b0.js"
+    "/assets/_...404_-cf58f2c3.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Landing_Page/homepage.jsx": [
-    "/assets/index-07a1fc66.js",
+    "/assets/index-319ee9d8.js",
     "/assets/index-80f5a054.css",
     "/assets/fa-brands-400-931d1733.eot",
     "/assets/fa-brands-400-1f49b870.woff2",
@@ -76,36 +76,36 @@
     "/assets/fa-solid-900-4ee1b170.svg"
   ],
   "src/components/Navbar.jsx": [
-    "/assets/(index)-89cfb666.js",
+    "/assets/(index)-6487b6bd.js",
     "/assets/(index)-1553321f.css"
   ],
   "src/components/doc_comps/Sidebar.jsx": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/doc_comps/clipboard.jsx": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/doc_comps/nextprevPage.jsx": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/doc_comps/sidebar_Items.jsx": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/components/news_comps/NewsPage.jsx": [
-    "/assets/(items)-2e45401a.js"
+    "/assets/(items)-7fcf79fe.js"
   ],
   "src/configs.jsx": [
   ],
   "src/css/hljs.css": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/css/main.css": [
-    "/assets/index-07a1fc66.js",
+    "/assets/index-319ee9d8.js",
     "/assets/index-80f5a054.css",
     "/assets/fa-brands-400-931d1733.eot",
     "/assets/fa-brands-400-1f49b870.woff2",
@@ -124,7 +124,7 @@
     "/assets/fa-solid-900-4ee1b170.svg"
   ],
   "src/css/markdown.css": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/css/style.css": [
@@ -134,54 +134,60 @@
   "src/root.jsx": [
   ],
   "src/routes/(index).jsx": [
-    "/assets/(index)-89cfb666.js",
+    "/assets/(index)-6487b6bd.js",
     "/assets/(index)-1553321f.css"
   ],
   "src/routes/(index)/[...404].jsx": [
-    "/assets/_...404_-74b127b0.js"
+    "/assets/_...404_-cf58f2c3.js"
   ],
   "src/routes/(index)/docs.jsx": [
-    "/assets/docs-acde740a.js",
+    "/assets/docs-c143bd3c.js",
     "/assets/docs-ec6eb359.css"
   ],
   "src/routes/(index)/docs/contribute.mdx": [
-    "/assets/contribute-61c29481.js"
+    "/assets/contribute-bfbca03e.js"
   ],
   "src/routes/(index)/docs/donate.mdx": [
-    "/assets/donate-fe379ce5.js"
+    "/assets/donate-e058f029.js"
+  ],
+  "src/routes/(index)/docs/guides/patch-suckless.mdx": [
+    "/assets/patch-suckless-216b00b0.js"
+  ],
+  "src/routes/(index)/docs/guides/pwnvim.mdx": [
+    "/assets/pwnvim-8663afce.js"
+  ],
+  "src/routes/(index)/docs/guides/repos.mdx": [
+    "/assets/repos-ed313797.js"
+  ],
+  "src/routes/(index)/docs/guides/theinit.mdx": [
+    "/assets/theinit-18a5959e.js"
   ],
   "src/routes/(index)/docs/install/beginner.mdx": [
-    "/assets/beginner-e4bf17ef.js"
-  ],
-  "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx": [
-    "/assets/boot-with-usb-b21c719f.js"
+    "/assets/beginner-6a780dad.js"
   ],
   "src/routes/(index)/docs/install/cli-install.mdx": [
-    "/assets/cli-install-b86587b8.js"
+    "/assets/cli-install-f8c7721d.js"
   ],
   "src/routes/(index)/docs/install/welcome.mdx": [
-    "/assets/welcome-158c9027.js"
+    "/assets/welcome-296983ed.js"
   ],
   "src/routes/(index)/docs/keybindings/bspwm.mdx": [
-    "/assets/bspwm-11eecf7d.js"
+    "/assets/bspwm-c0d51b5a.js"
   ],
   "src/routes/(index)/docs/keybindings/dwm.mdx": [
-    "/assets/dwm-11eecf7d.js"
+    "/assets/dwm-c0d51b5a.js"
   ],
   "src/routes/(index)/docs/old-contribute.mdx": [
-    "/assets/old-contribute-05282171.js"
-  ],
-  "src/routes/(index)/docs/theinit.mdx": [
-    "/assets/theinit-724fca93.js"
+    "/assets/old-contribute-e46daa6a.js"
   ],
   "src/routes/(index)/docs/walkthrough/utilities.mdx": [
-    "/assets/utilities-529a5477.js"
+    "/assets/utilities-d02a1397.js"
   ],
   "src/routes/(index)/docs/walkthrough/window-manager.mdx": [
-    "/assets/window-manager-f4cdfc8a.js"
+    "/assets/window-manager-aa31ab6a.js"
   ],
   "src/routes/(index)/index.jsx": [
-    "/assets/index-07a1fc66.js",
+    "/assets/index-319ee9d8.js",
     "/assets/index-80f5a054.css",
     "/assets/fa-brands-400-931d1733.eot",
     "/assets/fa-brands-400-1f49b870.woff2",
@@ -200,18 +206,18 @@
     "/assets/fa-solid-900-4ee1b170.svg"
   ],
   "src/routes/(index)/news/(items).jsx": [
-    "/assets/(items)-2e45401a.js"
+    "/assets/(items)-7fcf79fe.js"
   ],
   "src/routes/(index)/news/(items)/index.js": [
-    "/assets/index-c1fceff6.js"
+    "/assets/index-00648567.js"
   ],
   "src/routes/(index)/news/(items)/metis_V2.0.mdx": [
-    "/assets/metis_V2.0-18d56c1a.js"
+    "/assets/metis_V2.0-59140907.js"
   ],
   "src/routes/(index)/news/index.jsx": [
-    "/assets/index-c1fceff6.js"
+    "/assets/index-00648567.js"
   ],
   "src/utils.jsx": [
-    "/assets/utils-aee29c97.js"
+    "/assets/utils-ce08745c.js"
   ]
 }

@@ -1,31 +1,31 @@
 {
-  "_index-e554ed51.js": {
-    "file": "assets/index-e554ed51.js",
+  "_index-5ff2be6d.js": {
+    "file": "assets/index-5ff2be6d.js",
     "imports": [
       "src/entry-client.jsx"
     ]
   },
-  "_metis_V2.0-18d56c1a.js": {
-    "file": "assets/metis_V2.0-18d56c1a.js",
+  "_metis_V2.0-59140907.js": {
+    "file": "assets/metis_V2.0-59140907.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-e554ed51.js"
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true
   },
-  "_utils-aee29c97.js": {
-    "file": "assets/utils-aee29c97.js",
+  "_utils-ce08745c.js": {
+    "file": "assets/utils-ce08745c.js",
     "imports": [
       "src/entry-client.jsx"
     ]
   },
   "src/entry-client.css": {
-    "file": "assets/entry-client-180d57a1.css",
+    "file": "assets/entry-client-8ce99f70.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.jsx": {
     "css": [
-      "assets/entry-client-180d57a1.css"
+      "assets/entry-client-8ce99f70.css"
     ],
     "dynamicImports": [
       "src/routes/(index).jsx",
@@ -34,7 +34,10 @@
       "src/routes/(index)/docs/contribute.mdx",
       "src/routes/(index)/docs/donate.mdx",
       "src/routes/(index)/docs/old-contribute.mdx",
-      "src/routes/(index)/docs/theinit.mdx",
+      "src/routes/(index)/docs/guides/patch-suckless.mdx",
+      "src/routes/(index)/docs/guides/pwnvim.mdx",
+      "src/routes/(index)/docs/guides/repos.mdx",
+      "src/routes/(index)/docs/guides/theinit.mdx",
       "src/routes/(index)/docs/install/beginner.mdx",
       "src/routes/(index)/docs/install/cli-install.mdx",
       "src/routes/(index)/docs/install/welcome.mdx",
@@ -42,13 +45,12 @@
       "src/routes/(index)/docs/keybindings/dwm.mdx",
       "src/routes/(index)/docs/walkthrough/utilities.mdx",
       "src/routes/(index)/docs/walkthrough/window-manager.mdx",
-      "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx",
       "src/routes/(index)/index.jsx",
       "src/routes/(index)/news/(items).jsx",
-      "_metis_V2.0-18d56c1a.js",
+      "_metis_V2.0-59140907.js",
       "src/routes/(index)/news/index.jsx"
     ],
-    "file": "assets/entry-client-e57a51d0.js",
+    "file": "assets/entry-client-95b0c7d2.js",
     "isEntry": true,
     "src": "src/entry-client.jsx"
   },
@@ -60,17 +62,17 @@
     "css": [
       "assets/(index)-1553321f.css"
     ],
-    "file": "assets/(index)-89cfb666.js",
+    "file": "assets/(index)-6487b6bd.js",
     "imports": [
       "src/entry-client.jsx",
       "src/routes/(index)/docs.jsx",
-      "_utils-aee29c97.js"
+      "_utils-ce08745c.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index).jsx"
   },
   "src/routes/(index)/[...404].jsx": {
-    "file": "assets/_...404_-74b127b0.js",
+    "file": "assets/_...404_-cf58f2c3.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -85,118 +87,136 @@
     "css": [
       "assets/docs-ec6eb359.css"
     ],
-    "file": "assets/docs-acde740a.js",
+    "file": "assets/docs-c143bd3c.js",
     "imports": [
       "src/entry-client.jsx",
-      "_utils-aee29c97.js"
+      "_utils-ce08745c.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs.jsx"
   },
   "src/routes/(index)/docs/contribute.mdx": {
-    "file": "assets/contribute-61c29481.js",
+    "file": "assets/contribute-bfbca03e.js",
     "imports": [
-      "_index-e554ed51.js",
+      "_index-5ff2be6d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/contribute.mdx"
   },
   "src/routes/(index)/docs/donate.mdx": {
-    "file": "assets/donate-fe379ce5.js",
+    "file": "assets/donate-e058f029.js",
     "imports": [
-      "_index-e554ed51.js",
+      "_index-5ff2be6d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/donate.mdx"
   },
-  "src/routes/(index)/docs/install/beginner.mdx": {
-    "file": "assets/beginner-e4bf17ef.js",
+  "src/routes/(index)/docs/guides/patch-suckless.mdx": {
+    "file": "assets/patch-suckless-216b00b0.js",
+    "imports": [
+      "_index-5ff2be6d.js",
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/guides/patch-suckless.mdx"
+  },
+  "src/routes/(index)/docs/guides/pwnvim.mdx": {
+    "file": "assets/pwnvim-8663afce.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-e554ed51.js"
+      "_index-5ff2be6d.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/guides/pwnvim.mdx"
+  },
+  "src/routes/(index)/docs/guides/repos.mdx": {
+    "file": "assets/repos-ed313797.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-5ff2be6d.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/guides/repos.mdx"
+  },
+  "src/routes/(index)/docs/guides/theinit.mdx": {
+    "file": "assets/theinit-18a5959e.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-5ff2be6d.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/(index)/docs/guides/theinit.mdx"
+  },
+  "src/routes/(index)/docs/install/beginner.mdx": {
+    "file": "assets/beginner-6a780dad.js",
+    "imports": [
+      "src/entry-client.jsx",
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/beginner.mdx"
   },
-  "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx": {
-    "file": "assets/boot-with-usb-b21c719f.js",
-    "imports": [
-      "_index-e554ed51.js",
-      "src/entry-client.jsx"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/routes/(index)/docs/install/boot-iso/boot-with-usb.mdx"
-  },
   "src/routes/(index)/docs/install/cli-install.mdx": {
-    "file": "assets/cli-install-b86587b8.js",
+    "file": "assets/cli-install-f8c7721d.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-e554ed51.js"
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/cli-install.mdx"
   },
   "src/routes/(index)/docs/install/welcome.mdx": {
-    "file": "assets/welcome-158c9027.js",
+    "file": "assets/welcome-296983ed.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-e554ed51.js"
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/install/welcome.mdx"
   },
   "src/routes/(index)/docs/keybindings/bspwm.mdx": {
-    "file": "assets/bspwm-11eecf7d.js",
+    "file": "assets/bspwm-c0d51b5a.js",
     "imports": [
-      "_index-e554ed51.js",
+      "_index-5ff2be6d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/keybindings/bspwm.mdx"
   },
   "src/routes/(index)/docs/keybindings/dwm.mdx": {
-    "file": "assets/dwm-11eecf7d.js",
+    "file": "assets/dwm-c0d51b5a.js",
     "imports": [
-      "_index-e554ed51.js",
+      "_index-5ff2be6d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/keybindings/dwm.mdx"
   },
   "src/routes/(index)/docs/old-contribute.mdx": {
-    "file": "assets/old-contribute-05282171.js",
+    "file": "assets/old-contribute-e46daa6a.js",
     "imports": [
-      "_index-e554ed51.js",
+      "_index-5ff2be6d.js",
       "src/entry-client.jsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/old-contribute.mdx"
   },
-  "src/routes/(index)/docs/theinit.mdx": {
-    "file": "assets/theinit-724fca93.js",
-    "imports": [
-      "src/entry-client.jsx",
-      "_index-e554ed51.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/routes/(index)/docs/theinit.mdx"
-  },
   "src/routes/(index)/docs/walkthrough/utilities.mdx": {
-    "file": "assets/utilities-529a5477.js",
+    "file": "assets/utilities-d02a1397.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-e554ed51.js"
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/walkthrough/utilities.mdx"
   },
   "src/routes/(index)/docs/walkthrough/window-manager.mdx": {
-    "file": "assets/window-manager-f4cdfc8a.js",
+    "file": "assets/window-manager-aa31ab6a.js",
     "imports": [
       "src/entry-client.jsx",
-      "_index-e554ed51.js"
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/docs/walkthrough/window-manager.mdx"
@@ -226,7 +246,7 @@
     "css": [
       "assets/index-80f5a054.css"
     ],
-    "file": "assets/index-07a1fc66.js",
+    "file": "assets/index-319ee9d8.js",
     "imports": [
       "src/entry-client.jsx"
     ],
@@ -234,20 +254,20 @@
     "src": "src/routes/(index)/index.jsx"
   },
   "src/routes/(index)/news/(items).jsx": {
-    "file": "assets/(items)-2e45401a.js",
+    "file": "assets/(items)-7fcf79fe.js",
     "imports": [
       "src/entry-client.jsx",
-      "_utils-aee29c97.js"
+      "_utils-ce08745c.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/news/(items).jsx"
   },
   "src/routes/(index)/news/index.jsx": {
-    "file": "assets/index-c1fceff6.js",
+    "file": "assets/index-00648567.js",
     "imports": [
       "src/entry-client.jsx",
-      "_metis_V2.0-18d56c1a.js",
-      "_index-e554ed51.js"
+      "_metis_V2.0-59140907.js",
+      "_index-5ff2be6d.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/(index)/news/index.jsx"
