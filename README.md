@@ -19,3 +19,7 @@ npm run dev
 # Contribute
 
 Feel free to join us
+
+
+# credits 
+- @nvchad the wiki, @adi1090x the homepage
