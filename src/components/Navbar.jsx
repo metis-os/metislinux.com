@@ -28,11 +28,8 @@ function Links() {
         }`}
       >
         <A href="/docs/install/welcome">Wiki</A>
-       
         <A href="/docs/walkthrough/utilities">Features</A>
- 
         <A href="/news">News</A>
- 
         <A href="/docs/donate">Donate</A>
         <A href="/docs/contribute">Contribute</A>
 
